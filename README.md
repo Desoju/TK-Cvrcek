@@ -1,11 +1,11 @@
-# TK-Cvrcek
-Rozvržení 
-no stylově bych se asi odrážel od toho obrázku /*je tím myšleno nahled.png*/
-S tím že ten text co je tam teď nahoře by tam nebyl ten by byl v té kolonce o nás
-a pak ty jednotlivý stránky tak by mohli vypadat tak, že ten levý panel se zachová
-a bude se měnit jen ten panel vpravo, to je místo, do kterého by se dal ten jednotlivý text
-+ menu tak asi bych ho dal do toho levého sloupce, že by tam byl rozbalovací ať to nezavazí pořád
-a ještě ten obrázek cvrčka vlevo nahoře tak bych dal jako proklik na tuhle úvodní stránku
+Co je ještě potřeba udělat: (od nejurgentnějšího)
 
-Layout
-stránka bude pořád stejná, text se bude měnit jen ve velkém zelen=m odélníku v pravé
+1) dodělat text v Main
+2) zjistit, jak měnit text v Main a ostatní zachovat
+3) zprovoznit hamburgerové menu
+4) Napolohovat logo CTU, aby se nepohybovalo při scrollování
+5) přidat odkazy na facebook, instagram a discord
+6) zprovoznit odesílání otázek
+7) rozložení pro mobil a tablet
+8) font textů
+9) zprovoznit odpočet
