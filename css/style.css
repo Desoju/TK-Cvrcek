@@ -1,12 +1,13 @@
-/*# sourceMappingURL=style.css.map */ list-style: none;
+.whole {
+  display: flex;
+  background-size: cover;
+  background-position: center;
+  background-repeat: whole;
 }
-nav li {
-  display: block;
-  text-decoration: none;
-  color: black;
-}
-nav a {
-  display: block;
-  padding: 6px 12px;
-  text-decoration: none;
+
+.logoCTU {
+  width: 200px;
+  position: fixed;
+  right: 100px;
+  margin: 5px;
 }/*# sourceMappingURL=style.css.map */

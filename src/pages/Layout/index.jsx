@@ -1,27 +1,15 @@
-import { Outlet, Link } from "react-router-dom";
 import './style.scss';
+import kuncinaVes from "./../../images/logos/kuncinaVes.jpg";
+import { LeftSidebar } from "./../LeftSidebar";
+import { Main } from '../Main';
+import logo from "./../../images/logos/logo.png"
 
 export const Layout = () => {
   return (
-    <>
-      <nav>
-        <ul>
-          <li>
-            <Link to="/">Uvodní stránka</Link>
-          </li>
-          <li>
-            <Link to="/akcevroce">Akce v průběhu roku</Link>
-          </li>
-          <li>
-            <Link to="/onas">O nás</Link>
-          </li>
-          <li>
-            <Link to="/letnitabory">Letní tábory</Link>
-          </li>
-        </ul>
-      </nav>
-
-      <Outlet />
-    </>
+    <div className="whole" style={{ backgroundImage: `url(${kuncinaVes})` }}>
+      <LeftSidebar />
+      <Main />
+      <img className="logoCTU" src={logo} alt="logo české tábornické unie" />
+    </div>  
   )
 };

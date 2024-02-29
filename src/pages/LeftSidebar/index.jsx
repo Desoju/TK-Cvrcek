@@ -1,0 +1,37 @@
+import { HamburgerMenu } from './hamburgerMenu';
+import './style.scss';
+import Logo_Cvrcek_Barev from "./../../images/logos/Logo_Cvrcek_Barev.png"
+
+export const LeftSidebar = () => {
+  return (
+  <div className="left_sidebar">
+    <img src={ Logo_Cvrcek_Barev } alt="logo TK Cvrček" className="logo_cvrcek" />
+    <HamburgerMenu />
+    <div className="text_adresa">
+      <p className="text_adresa--bold">Česká tábornická unie -</p>
+      <p className="text_adresa--bold">T. K. Cvrček Brno, p. s.</p>
+      <p>Březina 385,</p>
+      <p>Zbraslav 664 84</p>
+      <p>IČ: XXXXXXXXXXXXX</p>
+      <p>E-mail: tkcvrcek@gmail.com</p>
+      <p></p>
+      <p className="text_adresa--bold">Máte otázku? Napište nám!</p>
+    </div>
+    <form>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="Vaše e-mailová adresa..."
+      />
+      <br />
+      <input 
+        type="text"
+        id="otazka"
+        name="otazka"
+        placeholder="Otázka..."
+      />
+    </form>
+  </div>
+  )
+};

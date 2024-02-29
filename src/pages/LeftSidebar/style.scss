@@ -1,0 +1,22 @@
+.left_sidebar {
+  background-color: #405c2f;
+  padding: 10px 20px 50px;
+  margin: 20px auto 50px 50px;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+}
+
+.logo_cvrcek{
+  width: 200px;
+  margin: 10px;
+  object-fit: cover;
+}
+
+.text_adresa{
+  color: white;
+
+  &--bold{
+    font-weight: bold;
+  }
+}

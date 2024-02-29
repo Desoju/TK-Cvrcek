@@ -1,5 +1,5 @@
 import { createRoot } from 'react-dom/client';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Layout } from './pages/Layout';
 import { UvodniStranka } from './pages/UvodniStranka';
 import { ONas } from './pages/ONas';
@@ -9,7 +9,7 @@ import './global.scss';
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <Router>
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<UvodniStranka />} />
@@ -18,11 +18,9 @@ export default function App() {
           <Route path="letnitabory" element={<LetniTabory />} />
         </Route>
       </Routes>
-    </BrowserRouter>
+    </Router>
   );
 }
-
-
 
 createRoot(
   document.querySelector('#app'),
