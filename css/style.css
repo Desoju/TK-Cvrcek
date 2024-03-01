@@ -1,13 +1,7 @@
-.whole {
-  display: flex;
-  background-size: cover;
-  background-position: center;
-  background-repeat: whole;
-}
-
-.logoCTU {
-  width: 200px;
-  position: fixed;
-  right: 100px;
-  margin: 5px;
+.main {
+  width: 800px;
+  background-color: #405c2f;
+  margin: 150px 100px;
+  color: white;
+  padding: 10px;
 }/*# sourceMappingURL=style.css.map */

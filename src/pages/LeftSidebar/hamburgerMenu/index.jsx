@@ -1,11 +1,12 @@
-import React, { useState } from 'react';
-import { Outlet, Link } from "react-router-dom";
+import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import './style.scss';
 
 export const HamburgerMenu = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {
+    console.log("open or closed")
     setIsOpen(!isOpen);
   };
 
@@ -16,25 +17,20 @@ export const HamburgerMenu = () => {
         <span className="bar"></span>
         <span className="bar"></span>
       </button>
-      <div className="menu-content">
-        <nav>
-        <ul>
-          <li>
-            <Link to="/">Uvodní stránka</Link>
-          </li>
-          <li>
-            <Link to="/akcevroce">Akce v průběhu roku</Link>
-          </li>
-          <li>
-            <Link to="/onas">O nás</Link>
-          </li>
-          <li>
-            <Link to="/letnitabory">Letní tábory</Link>
-          </li>
-        </ul>
-      </nav>
+      <div className={`menu-content ${isOpen ? 'open' : ''}`}>
+          <ul>
+            <li>
+              <Link to="/akcevroce">Akce v průběhu roku</Link>
+            </li>
+            <li>
+              <Link to="/onas">O nás</Link>
+            </li>
+            <li>
+              <Link to="/letnitabory">Letní tábory</Link>
+            </li>
+          </ul>
       </div>
-      <Outlet />
     </div>
   );
 };
+

@@ -1,11 +1,14 @@
-import { HamburgerMenu } from './hamburgerMenu';
+import { HamburgerMenu } from "./hamburgerMenu";
 import './style.scss';
-import Logo_Cvrcek_Barev from "./../../images/logos/Logo_Cvrcek_Barev.png"
+import Logo_Cvrcek_Barev from "./../../images/logos/Logo_Cvrcek_Barev.png";
+import { Link } from "react-router-dom";
 
 export const LeftSidebar = () => {
   return (
   <div className="left_sidebar">
-    <img src={ Logo_Cvrcek_Barev } alt="logo TK Cvrček" className="logo_cvrcek" />
+    <Link to="/">
+      <img src={Logo_Cvrcek_Barev} alt="logo TK Cvrček" className="logo_cvrcek" />
+    </Link>
     <HamburgerMenu />
     <div className="text_adresa">
       <p className="text_adresa--bold">Česká tábornická unie -</p>
@@ -23,6 +26,7 @@ export const LeftSidebar = () => {
         id="email"
         name="email"
         placeholder="Vaše e-mailová adresa..."
+        autoComplete="email"
       />
       <br />
       <input 

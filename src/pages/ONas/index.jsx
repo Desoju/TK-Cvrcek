@@ -1,19 +1,20 @@
 import './style.scss';
+/*
 import DavidPhoto from './leader_phots/DavidPhoto.jpg';
 import JancaPhoto from './leader_phots/JancaPhoto.jpg';
 import JindraPhoto from './leader_phots/JindraPhoto.jpg';
-// Import other photos similarly
-
+*/
 
 
 export const ONas = () => {
+  /*
   const leaders = ["Ruda", "David", "Janča", "Marťa", "Áňa", "Ondra", "Jindra", "Vojta"];
   const photos = [DavidPhoto, JindraPhoto, JancaPhoto];
 
   const leadersWithPhotos = leaders.map((leaderName, index) => ({
     name: leaderName,
     photo: photos[index],
-  }));
+  }));*/
 
   return (
     <div>
@@ -23,12 +24,12 @@ export const ONas = () => {
       <p>Naše parta vedoucích se skládá z mladých lidí s bohatými zkušenostmi s tábornictvím a pobytem v přírodě. Jsme zodpovědní, spolehliví a s úsměvem na tváři se vrháme do všech aktivit, které pro naše táborníky chystáme. Máme zkušenosti z dlouholetého fungování klubu TK Delfín, v němž jsme všichni vyrostli jako účastníci a postupně přešli do role vedoucích a instruktorů. Tábory i ostatní akce pořádáme ve svém volném čase vedle studia či práce, protože v tom vidíme smysl a chceme předávat naše zážitky z tábornického klubu dál.
       </p>
       <ul>
-        {leadersWithPhotos.map((person, index) => (
+        {/*leadersWithPhotos.map((person, index) => (
           <li key={index}>
             <a href={`#${person.name}`}>{person.name}</a>
             <img src={person.photo} alt={person.name} />
           </li>
-        ))}
+        ))*/}
       </ul>
     </div>
   );
