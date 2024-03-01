@@ -1,8 +1,16 @@
-.main {
-  width: 800px;
+ul {
+  margin: 0;
+  padding: 0;
   background-color: #405c2f;
-  margin: 150px 100px;
+}
+
+li {
+  display: block;
+}
+
+a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none;
   color: white;
-  padding: 10px;
-  opacity: 90%;
 }/*# sourceMappingURL=style.css.map */

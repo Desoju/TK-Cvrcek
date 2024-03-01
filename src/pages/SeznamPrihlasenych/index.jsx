@@ -10,8 +10,7 @@ export const SeznamPrihlasenych = () => {
           <tr>
             <th></th>
             <th>Jméno</th>
-            <th>Přijmení</th>
-            <th>Věk</th>
+            <th>Zaplaceno</th>
           </tr>
         </thead>
         <tbody>
@@ -20,8 +19,7 @@ export const SeznamPrihlasenych = () => {
               <tr key={index}>
                 <td>{index + 1}</td>
                 <td>{val.name}</td>
-                <td>{val.surname}</td>
-                <td>{val.age}</td>
+                <td>{val.paid}</td>
               </tr>
             );
           })}
