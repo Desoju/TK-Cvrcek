@@ -1,11 +1,12 @@
-import { createRoot } from 'react-dom/client';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { Layout } from './pages/Layout';
-import { Main } from './pages/Main'; 
-import { ONas } from './pages/ONas';
-import { AkcevRoce } from './pages/AkcevRoce';
-import { LetniTabory } from './pages/LetniTabory';
-import './global.scss';
+import { createRoot } from "react-dom/client";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Layout } from "./pages/Layout";
+import { Main } from "./pages/Main";
+import { ONas } from "./pages/ONas";
+import { AkcevRoce } from "./pages/AkcevRoce";
+import { LetniTabory } from "./pages/LetniTabory";
+import { SeznamPrihlasenych } from "./pages/SeznamPrihlasenych";
+import "./global.scss";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
           <Route path="onas" element={<ONas />} />
           <Route path="akcevroce" element={<AkcevRoce />} />
           <Route path="letnitabory" element={<LetniTabory />} />
+          <Route path="seznamprihlasenych" element={<SeznamPrihlasenych />} />
         </Route>
       </Routes>
     </Router>
@@ -24,6 +26,4 @@ const App = () => {
 
 export default App;
 
-createRoot(
-  document.querySelector('#app'),
-).render(<App />);
+createRoot(document.querySelector("#app")).render(<App />);

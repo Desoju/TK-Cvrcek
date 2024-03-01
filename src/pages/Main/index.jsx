@@ -4,10 +4,9 @@ import { Outlet, Link } from "react-router-dom";
 export const Main = ({ children }) => {
   return (
     <div className="main">
-      <h3>Do tábora zbývá 32 dní</h3>
+      <h3>Do tábora zbývá XX dní</h3>
       {children}
       <div className="menu-content">
-        <nav>
         <ul>
           <li>
             <Link to="/">Uvodní stránka</Link>
@@ -22,18 +21,8 @@ export const Main = ({ children }) => {
             <Link to="/letnitabory">Letní tábory</Link>
           </li>
         </ul>
-      </nav>
       </div>
       <Outlet />
     </div>
   );
 };
-
-/*
-export const Main = () => {
-  return(
-    <div className="main">
-
-    </div>
-  )
-}*/
