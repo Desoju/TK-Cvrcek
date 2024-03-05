@@ -28,7 +28,7 @@ export const LetniTabory = () => {
       </p>
       <ul>
         <li>
-          <Link to="/seznamprihlasenych">Seznam přihlášených</Link>
+          <Link to="/seznamprihlasenych" className="seznam_prihlasenych">Seznam přihlášených</Link>
         </li>
       </ul>
       <Outlet />

@@ -9,9 +9,6 @@ export const Main = ({ children }) => {
       <div className="menu-content">
         <ul>
           <li>
-            <Link to="/">Uvodní stránka</Link>
-          </li>
-          <li>
             <Link to="/akcevroce">Akce v průběhu roku</Link>
           </li>
           <li>
