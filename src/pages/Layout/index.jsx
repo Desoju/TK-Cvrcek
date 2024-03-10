@@ -6,8 +6,8 @@ import logo from "./../../images/logos/logo.png";
 export const Layout = () => {
   return (
     <div className="whole">
-      <LeftSidebar />
-      <Main />
+      <LeftSidebar className="left" />
+      <Main className="right" />
       <img className="logoCTU" src={logo} alt="logo české tábornické unie" />
     </div>
   );

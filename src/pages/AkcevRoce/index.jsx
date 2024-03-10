@@ -1,16 +1,49 @@
 import "./style.scss";
-import { Outlet, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export const AkcevRoce = () => {
   return (
-    <div>
+    <div className="akce_v_roce">
       <h1>Akce v průběhu roku</h1>
+      <ul>
+        <li>
+          <Link to="/seznamprihlasenych" className="link">
+            Seznam přihlášených
+          </Link>
+        </li>
+      </ul>
       <p>
         Kromě letních táborů se s námi můžete potkat na nejrůznějších akcích v
         průběhu roku. Akce mohou být víkendové či jednodenní pod dohledem našich
-        vedoucích. momentálně naplánované akce:
+        vedoucích.
       </p>
-      <ul>
+      <p>Momentálně naplánované akce:</p>
+      <div className="momentalini_akce">
+        <div className="akce1">
+          <p>Název</p>
+          <p>Datum</p>
+          <p>Info</p>
+          <p>Přihlášení účastníci</p>
+        </div>
+        <div className="akce2">
+          <p>Název</p>
+          <p>Datum</p>
+          <p>Info</p>
+          <p>Přihlášení účastníci</p>
+        </div>
+        <div className="akce3">
+          <p>Název</p>
+          <p>Datum</p>
+          <p>Info</p>
+          <p>Přihlášení účastníci</p>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+/*
+<ul>
         <li>
           víkendové akce
           <ul>
@@ -24,12 +57,4 @@ export const AkcevRoce = () => {
           </ul>
         </li>
       </ul>
-      <ul>
-        <li>
-          <Link to="/seznamprihlasenych">Seznam přihlášených</Link>
-        </li>
-      </ul>
-      <Outlet />
-    </div>
-  );
-};
+      */

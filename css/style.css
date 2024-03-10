@@ -1,20 +1,4 @@
-ul {
-  margin: 0;
-  padding: 0;
-  background-color: #405c2f;
-}
-
-li {
-  display: block;
-}
-
-a {
-  display: block;
-  padding: 6px 12px;
-  text-decoration: none;
-  color: white;
-}
-
-.seznam_prihlasenych {
-  font-weight: 400;
+.icon {
+  width: 100px;
+  display: flex;
 }/*# sourceMappingURL=style.css.map */

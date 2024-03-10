@@ -1,7 +1,7 @@
 .left_sidebar {
   background-color: #405c2f;
   padding: 10px 20px 50px;
-  margin: 20px auto 50px 50px;
+  margin: 20px 200px 50px 50px;
   display: inline-block;
   position: relative;
   overflow: hidden;
@@ -19,5 +19,13 @@
 
   &--bold{
     font-weight: bold;
+  }
+}
+
+.odkazy{
+  display: flexbox
+
+  &__odkaz{
+    width: 20px;
   }
 }

@@ -6,6 +6,7 @@ import { ONas } from "./pages/ONas";
 import { AkcevRoce } from "./pages/AkcevRoce";
 import { LetniTabory } from "./pages/LetniTabory";
 import { SeznamPrihlasenych } from "./pages/SeznamPrihlasenych";
+import { UvodniStranka } from "./pages/UvodniStranka";
 import "./global.scss";
 
 const App = () => {
@@ -13,7 +14,7 @@ const App = () => {
     <Router>
       <Routes>
         <Route path="/" element={<Layout />}>
-          <Route index element={Main} />
+          <Route index element={<Main content={<UvodniStranka />} />} />
           <Route path="onas" element={<ONas />} />
           <Route path="akcevroce" element={<AkcevRoce />} />
           <Route path="letnitabory" element={<LetniTabory />} />

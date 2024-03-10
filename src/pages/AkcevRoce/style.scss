@@ -14,3 +14,20 @@ a {
   text-decoration: none;
   color: white;
 }
+
+.momentalini_akce{
+  display: grid;
+  grid-template-columns: 30% 5% 30% 5% 30%;
+}
+
+.akce1{
+  grid-column: 1;
+}
+
+.akce2{
+  grid-column: 3;
+}
+
+.akce3{
+  grid-column: 5;
+}

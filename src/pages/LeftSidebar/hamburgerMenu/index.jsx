@@ -19,13 +19,13 @@ export const HamburgerMenu = () => {
       <div className={`menu-content ${isOpen ? "open" : ""}`}>
         <ul>
           <li>
-            <Link to="/akcevroce">Akce v průběhu roku</Link>
-          </li>
-          <li>
             <Link to="/onas">O nás</Link>
           </li>
           <li>
             <Link to="/letnitabory">Letní tábory</Link>
+          </li>
+          <li>
+            <Link to="/akcevroce">Akce v průběhu roku</Link>
           </li>
         </ul>
       </div>
