@@ -2,23 +2,32 @@
   background-color: #405c2f;
   padding: 10px 20px 50px;
   margin: 20px 200px 50px 50px;
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   position: relative;
   overflow: hidden;
   opacity: 90%;
 }
 
 .logo_cvrcek{
-  width: 100px;
+  width: 150px;
   margin: 10px;
   object-fit: cover;
 }
 
 .text_adresa{
   color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
   &--bold{
     font-weight: bold;
+  }
+
+  p{
+    margin: 2px;
   }
 }
 
@@ -28,4 +37,9 @@
   &__odkaz{
     width: 20px;
   }
+}
+
+.otazka{
+  width: 220px;
+  padding: 5px;
 }

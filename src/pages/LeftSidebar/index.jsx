@@ -14,26 +14,31 @@ export const LeftSidebar = () => {
         />
       </Link>
       <HamburgerMenu />
+      <br />
       <div className="text_adresa">
         <p className="text_adresa--bold">Česká tábornická unie -</p>
         <p className="text_adresa--bold">T. K. Cvrček Brno, p. s.</p>
+        <br />
         <p>Březina 385,</p>
         <p>Zbraslav 664 84</p>
         <p>IČ: XXXXXXXXXXXXX</p>
         <p>E-mail: tkcvrcek@gmail.com</p>
         <p></p>
+        <br />
         <p className="text_adresa--bold">Máte otázku? Napište nám!</p>
+        <br />
       </div>
-      <form>
+      <form >
         <input
           type="email"
           id="email"
           name="email"
           placeholder="Vaše e-mailová adresa..."
           autoComplete="email"
+          className="otazka"
         />
         <br />
-        <input type="text" id="otazka" name="otazka" placeholder="Otázka..." />
+        <input type="text" id="otazka" name="otazka" placeholder="Otázka..." className="otazka"/>
       </form>
     </div>
   );
