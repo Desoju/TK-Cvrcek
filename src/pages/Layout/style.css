@@ -1,0 +1,10 @@
+.whole {
+  display: flex;
+}
+
+.logoCTU {
+  width: 200px;
+  position: fixed;
+  right: 100px;
+  margin: 5px;
+}/*# sourceMappingURL=style.css.map */
