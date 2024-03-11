@@ -20,14 +20,14 @@ export const AkcevRoce = () => {
       <p>Momentálně naplánované akce:</p>
       <div className="momentalini_akce">
         <div className="akce1">
-          <p>Název</p>
-          <p>Datum</p>
+          <p>Jarní Obůrka</p>
+          <p>5.-7. 4. 2024</p>
           <p>Info</p>
           <p>Přihlášení účastníci</p>
         </div>
         <div className="akce2">
-          <p>Název</p>
-          <p>Datum</p>
+          <p>Předtáborová Obůrka</p>
+          <p>21.-23. 6. 2024</p>
           <p>Info</p>
           <p>Přihlášení účastníci</p>
         </div>
