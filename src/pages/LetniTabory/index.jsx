@@ -15,6 +15,7 @@ export const LetniTabory = () => {
       <a href="">PŘIHLÁŠKA</a>
       <a href="">INFORMACE</a>
       <h3>Program</h3>
+      <p>zkouška</p>
       <p>
         Táborem bude děti provázet celotáborová hra s propracovaným programem se
         spoustou zajímavých aktivit a zážitků. Dále se děti můžou těšit na
