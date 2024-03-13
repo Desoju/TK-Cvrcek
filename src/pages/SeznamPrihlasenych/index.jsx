@@ -20,6 +20,7 @@ export const SeznamPrihlasenych = () => {
                 <td>{index + 1}</td>
                 <td>{val.name}</td>
                 <td>{val.paid}</td>
+                <td>    |    </td>
               </tr>
             );
           })}
