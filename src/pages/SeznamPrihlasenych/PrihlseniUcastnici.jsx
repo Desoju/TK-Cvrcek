@@ -1,5 +1,5 @@
 export const PrihlaseniUcastnci = [
-  { name: "", paid: "" },
+  { name: "Zkouska", paid: "680,-" },
   { name: "", paid: "" },
   { name: "", paid: "" },
   { name: "", paid: "" },
