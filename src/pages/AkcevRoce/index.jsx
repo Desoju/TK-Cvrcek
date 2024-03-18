@@ -6,13 +6,7 @@ export const AkcevRoce = () => {
   return (
     <div className="akce_v_roce">
       <h1>Akce v průběhu roku</h1>
-      <ul>
-        <li>
-          <Link to="/seznamprihlasenych" className="link">
-            SEZNAM PŘIHLÁŠENÝCH
-          </Link>
-        </li>
-      </ul>
+      
       <p>
         Kromě letních táborů se s námi můžete potkat na nejrůznějších akcích v
         průběhu roku. Akce mohou být víkendové či jednodenní pod dohledem našich
@@ -24,6 +18,13 @@ export const AkcevRoce = () => {
           <p>Jarní Obůrka</p>
           <p>5.-7. 4. 2024</p>
           <a href={letaktabor}>INFO</a>
+          <ul>
+            <li>
+             <Link to="/seznamprihlasenych" className="link">
+                 SEZNAM PŘIHLÁŠENÝCH
+              </Link>
+            </li>
+          </ul>
           {/*<p>Přihlášení účastníci</p>*/}
         </div>
         <div className="akce2">
