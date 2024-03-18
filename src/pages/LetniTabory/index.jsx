@@ -1,11 +1,12 @@
 import "./style.scss";
 import { Link } from "react-router-dom";
+import letaktabor from "./../../documents/Letaktabor2024.pdf";
 
 export const LetniTabory = () => {
   return (
     <div className="letni_tabory">
       <h1>Letní tábory</h1>
-      <a href="../documents/Letaktabor2024.pdf">INFORMACE</a>
+      <a href={letaktabor}>INFORMACE</a>
       <a href="">PŘIHLÁŠKA</a>
       <ul>
         <li>
