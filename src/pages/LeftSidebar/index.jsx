@@ -28,6 +28,7 @@ export const LeftSidebar = () => {
         <p className="text_adresa--bold">Máte otázku? Napište nám!</p>
         <br />
       </div>
+      {/*
       <form >
         <input
           type="email"
@@ -40,6 +41,7 @@ export const LeftSidebar = () => {
         <br />
         <input type="text" id="otazka" name="otazka" placeholder="Otázka..." className="otazka"/>
       </form>
-    </div>
+       */}
+  </div>
   );
 };
