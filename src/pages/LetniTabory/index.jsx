@@ -5,10 +5,10 @@ export const LetniTabory = () => {
   return (
     <div className="letni_tabory">
       <h1>Letní tábory</h1>
-      <a href="">INFORMACE</a>
-      <a href="">PŘIHLÁŠKA</a>
+      <a style={styles.underline} href="">INFORMACE</a>
+      <a style={styles.underline} href="">PŘIHLÁŠKA</a>
       <ul>
-        <li>
+        <li style={styles.underline}>
           <Link to="/seznamprihlasenych" className="seznam_prihlasenych">
             SEZNAM PŘIHLÁŠENÝCH
           </Link>
