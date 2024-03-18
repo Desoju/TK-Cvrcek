@@ -27,9 +27,9 @@ export const AkcevRoce = () => {
           <p>Přihlášení účastníci</p>
         </div>
         <div className="akce2">
-          <p>Název</p>
-          <p>Datum</p>
-          <p>Info</p>
+          <p>Předtáborová Obůrka</p>
+          <p>21.-23. 6. 2024</p>
+          <a href="">INFO</a>
           <p>Přihlášení účastníci</p>
         </div>
         <div className="akce3">

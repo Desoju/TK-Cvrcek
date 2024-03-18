@@ -1,0 +1,33 @@
+ul {
+  margin: 0;
+  padding: 0;
+  background-color: #405c2f;
+}
+
+li {
+  display: block;
+}
+
+a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none;
+  color: white;
+}
+
+.momentalini_akce {
+  display: grid;
+  grid-template-columns: 30% 5% 30% 5% 30%;
+}
+
+.akce1 {
+  grid-column: 1;
+}
+
+.akce2 {
+  grid-column: 3;
+}
+
+.akce3 {
+  grid-column: 5;
+}/*# sourceMappingURL=style.css.map */

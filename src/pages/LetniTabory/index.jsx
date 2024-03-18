@@ -5,6 +5,8 @@ export const LetniTabory = () => {
   return (
     <div className="letni_tabory">
       <h1>Letní tábory</h1>
+      <a href="">INFORMACE</a>
+      <a href="">PŘIHLÁŠKA</a>
       <ul>
         <li>
           <Link to="/seznamprihlasenych" className="seznam_prihlasenych">
@@ -12,10 +14,7 @@ export const LetniTabory = () => {
           </Link>
         </li>
       </ul>
-      <a href="">PŘIHLÁŠKA</a>
-      <a href="">INFORMACE</a>
       <h3>Program</h3>
-      <p>Zkouším něco přidat</p>
       <p>
         Táborem bude děti provázet celotáborová hra s propracovaným programem se
         spoustou zajímavých aktivit a zážitků. Dále se děti můžou těšit na
