@@ -17,7 +17,7 @@ export const AkcevRoce = () => {
         <div className="akce1">
           <p>Jarní Obůrka</p>
           <p>5.-7. 4. 2024</p>
-          <a href={letaktabor}>INFO</a>
+          <a href={letaktabor}>INFORMACE</a>
           <ul>
             <li>
              <Link to="/seznamprihlasenych" className="link">
