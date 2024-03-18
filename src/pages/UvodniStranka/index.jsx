@@ -15,20 +15,20 @@ export const UvodniStranka = () => {
           <li>
             <Link to="/onas">
               <img src={cricket} alt="stan" className="icon" />
-              <p>O nás</p>
+              <p className="p">O nás</p>
             </Link>
           </li>
           <li>
             <Link to="/letnitabory">
               {" "}
               <img src={camping} alt="stan" className="icon" />
-              <p>Letní tábory</p>
+              <p className="p">Letní tábory</p>
             </Link>
           </li>
           <li>
             <Link to="/akcevroce">
               <img src={calendar} alt="kalendář" className="icon" />
-              <p>Akce v průběhu roku</p>
+              <p className="p">Akce v průběhu roku</p>
             </Link>
           </li>
         </ul>
