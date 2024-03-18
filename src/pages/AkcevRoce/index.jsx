@@ -30,7 +30,7 @@ export const AkcevRoce = () => {
         <div className="akce2">
           <p>Předtáborová Obůrka</p>
           <p>21.-23. 6. 2024</p>
-          <a /*href=""*/ className="prozatim">INFO (zatím není)</a>
+          {/* <a href="" className="prozatim">INFO (zatím není)</a> */}
           {/*<p>Přihlášení účastníci</p>*/}
         </div>
         {/*<div className="akce3">
