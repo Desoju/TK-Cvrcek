@@ -1,5 +1,6 @@
 import "./style.scss";
 import { Link } from "react-router-dom";
+import letaktabor from "./../../documents/Letak_Oburka.pdf";
 
 export const AkcevRoce = () => {
   return (
@@ -22,7 +23,7 @@ export const AkcevRoce = () => {
         <div className="akce1">
           <p>Jarní Obůrka</p>
           <p>5.-7. 4. 2024</p>
-          <a href="">INFO</a>
+          <a href={letaktabor}>INFO</a>
           <p>Přihlášení účastníci</p>
         </div>
         <div className="akce2">
