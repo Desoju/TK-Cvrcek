@@ -19,6 +19,10 @@
   transition: 0.3s;
 }
 
+.odkaz {
+  text-decoration: solid;
+}
+
 .open .bar:nth-child(1) {
   transform: rotate(-45deg) translate(-5px, 6px);
 }
