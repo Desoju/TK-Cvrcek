@@ -1,5 +1,6 @@
 import "./style.scss";
 import { Link } from "react-router-dom";
+import info_Oburka_jaro_2024 from "./../../info_akce/info-Oburka-jaro-2024.pdf";
 
 export const AkcevRoce = () => {
   return (
@@ -20,9 +21,9 @@ export const AkcevRoce = () => {
       <p>Momentálně naplánované akce:</p>
       <div className="momentalini_akce">
         <div className="akce1">
-          <p>Název</p>
-          <p>Datum</p>
-          <p>Info</p>
+          <p>Obůrka jaro 2024</p>
+          <p>5. - 7. dubna 2024</p>
+          <p>{info_Oburka_jaro_2024}</p>
           <p>Přihlášení účastníci</p>
         </div>
         <div className="akce2">
