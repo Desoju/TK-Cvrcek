@@ -9,7 +9,7 @@ export const AkcevRoce = () => {
       <ul>
         <li>
           <Link to="/seznamprihlasenych" className="link">
-            Seznam přihlášených
+            SEZNAM PŘIHLÁŠENÝCH
           </Link>
         </li>
       </ul>
@@ -24,20 +24,20 @@ export const AkcevRoce = () => {
           <p>Jarní Obůrka</p>
           <p>5.-7. 4. 2024</p>
           <a href={letaktabor}>INFO</a>
-          <p>Přihlášení účastníci</p>
+          {/*<p>Přihlášení účastníci</p>*/}
         </div>
         <div className="akce2">
           <p>Předtáborová Obůrka</p>
           <p>21.-23. 6. 2024</p>
-          <a href="">INFO</a>
-          <p>Přihlášení účastníci</p>
+          <a /*href=""*/>INFO (zatím není)</a>
+          {/*<p>Přihlášení účastníci</p>*/}
         </div>
-        <div className="akce3">
+        {/*<div className="akce3">
           <p>Název</p>
           <p>Datum</p>
           <p>Info</p>
           <p>Přihlášení účastníci</p>
-        </div>
+        </div> */}
       </div>
     </div>
   );
