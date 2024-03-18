@@ -12,3 +12,8 @@ Co je ještě potřeba udělat: (od nejurgentnějšího)
 Zeptat se:
 1) V AkceVRoce v jednotlivých akcích poslední odkaz proklik? Na co?
 2) Můžu si dát odkaz do LinkedIn?
+
+RUDA vyváděl:
+1) na uvodní stránce je to podtržený a zvýrazňuje se to modře
+2) několik věcí jsem schoval do poznámek aby nebyly zbytečně matoucí když tam zatím nejsou třeba
+3) je třeba pak rozdělit přihlášený účastníky k táborům a k akcím v roce zvlášť
