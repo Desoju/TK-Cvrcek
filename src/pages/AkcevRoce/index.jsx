@@ -23,9 +23,7 @@ export const AkcevRoce = () => {
           <p>Jarní Obůrka</p>
           <p>5.-7. 4. 2024</p>
           <a href="">INFO</a>
-          <Link to="/seznamprihlasenych" className="link">
-            Seznam přihlášených
-          </Link>
+          <p>Přihlášení účastníci</p>
         </div>
         <div className="akce2">
           <p>Předtáborová Obůrka</p>
