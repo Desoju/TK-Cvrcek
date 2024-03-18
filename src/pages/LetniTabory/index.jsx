@@ -5,8 +5,8 @@ export const LetniTabory = () => {
   return (
     <div className="letni_tabory">
       <h1>Letní tábory</h1>
-      <a className="odkaz" href="">INFORMACE</a>
-      <a className="odkaz" href="">PŘIHLÁŠKA</a>
+      <a href="">INFORMACE</a>
+      <a href="">PŘIHLÁŠKA</a>
       <ul>
         <li>
           <Link to="/seznamprihlasenych" className="seznam_prihlasenych">
