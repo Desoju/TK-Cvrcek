@@ -1,7 +1,8 @@
 import "./style.scss";
 import { Link } from "react-router-dom";
-import letaktabor from "./../../documents/Letaktabor2024.pdf";
-import prihlaska from "./../../documents/Prihlaska_tabor.pdf";
+import letaktabor from "./../../documents/Letak_tabor2024.pdf";
+import prihlaska from "./../../documents/Prihlaska_tabor2024.pdf";
+import pokyny from "./../../documents/pokynyproplatbu.pdf";
 
 export const LetniTabory = () => {
   return (
@@ -10,6 +11,7 @@ export const LetniTabory = () => {
       <p>Termín: 14.-27. 7. 2024</p>
       <a href={letaktabor}>INFORMACE</a>
       <a href={prihlaska}>PŘIHLÁŠKA</a>
+      <a href={pokyny}>PODROBNÉ POKYNY PRO PLATBU A PŘIHLÁŠENÍ</a>
       <ul>
         <li>
           <Link to="/seznamprihlasenych" className="seznam_prihlasenych">
