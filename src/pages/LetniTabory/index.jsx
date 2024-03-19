@@ -2,7 +2,7 @@ import "./style.scss";
 import { Link } from "react-router-dom";
 import letaktabor from "./../../documents/Letak_tabor2024.pdf";
 import prihlaska from "./../../documents/Prihlaska_tabor2024.pdf";
-import pokyny from "./../../documents/pokynyproplatbu.pdf";
+import pokyny from "./../../documents/Pokyny_pro_platbu_a_prihlaseni.pdf";
 
 export const LetniTabory = () => {
   return (
