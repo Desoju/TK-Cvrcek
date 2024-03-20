@@ -22,7 +22,7 @@ export const LetniTabory = () => {
       <h3>Program</h3>
       <p>
         Táborem bude děti provázet celotáborová hra s propracovaným programem se
-        spoustou zajímavých aktivit a zážitků. Dále se děti můžou těšit na
+        spoustou zajímavých aktivit a zážitků. Dále se děti mohou těšit na
         výlety po okolí, koupání v nedaleké nádrži a učení se tábornickým
         dovednostem, jako je zdravověda, uzly, znalost rostlin a rozdělávání
         ohně.
