@@ -1,4 +1,3 @@
-import "./style.scss";
 import { PrihlaseniUcastnciTabor } from "./PrihlseniUcastniciTabor";
 
 export const SeznamPrihlasenychTabor = () => {
