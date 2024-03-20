@@ -5,7 +5,10 @@ import { Main } from "./pages/Main";
 import { ONas } from "./pages/ONas";
 import { AkcevRoce } from "./pages/AkcevRoce";
 import { LetniTabory } from "./pages/LetniTabory";
-import { SeznamPrihlasenych } from "./pages/SeznamPrihlasenych";
+import { SeznamPrihlasenychAkce1 } from "./pages/SeznamPrihlasenychAkce1";
+import { SeznamPrihlasenychAkce2 } from "./pages/SeznamPrihlasenychAkce2";
+import { SeznamPrihlasenychAkce3 } from "./pages/SeznamPrihlasenychAkce3";
+import { SeznamPrihlasenychTabor } from "./pages/SeznamPrihlasenychTabor";
 import { UvodniStranka } from "./pages/UvodniStranka";
 import "./global.scss";
 
@@ -18,7 +21,10 @@ const App = () => {
           <Route path="onas" element={<ONas />} />
           <Route path="akcevroce" element={<AkcevRoce />} />
           <Route path="letnitabory" element={<LetniTabory />} />
-          <Route path="seznamprihlasenych" element={<SeznamPrihlasenych />} />
+          <Route path="seznamprihlasenychakce1" element={<SeznamPrihlasenychAkce1 />} />
+          <Route path="seznamprihlasenychakce2" element={<SeznamPrihlasenychAkce2 />} />
+          <Route path="seznamprihlasenychakce3" element={<SeznamPrihlasenychAkce3 />} />
+          <Route path="seznamprihlasenychtabor" element={<SeznamPrihlasenychTabor />} />
         </Route>
       </Routes>
     </Router>

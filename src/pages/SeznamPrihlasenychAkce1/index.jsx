@@ -1,7 +1,7 @@
 import "./style.scss";
-import { PrihlaseniUcastnci } from "./PrihlseniUcastnici";
+import { PrihlaseniUcastnciAkce1 } from "./PrihlseniUcastniciAkce1";
 
-export const SeznamPrihlasenych = () => {
+export const SeznamPrihlasenychAkce1 = () => {
   return (
     <div className="seznam_prihlasenych">
       <h1>Seznam přihlášených</h1>
@@ -15,7 +15,7 @@ export const SeznamPrihlasenych = () => {
           </tr>
         </thead>
         <tbody>
-          {PrihlaseniUcastnci.map((val, index) => {
+          {PrihlaseniUcastnciAkce1.map((val, index) => {
             return (
               <tr key={index}>
                 <td>{index + 1}</td>

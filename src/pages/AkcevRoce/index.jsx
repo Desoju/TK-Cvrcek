@@ -20,7 +20,7 @@ export const AkcevRoce = () => {
           <a href={letaktabor}>INFORMACE</a>
           <ul>
             <li>
-             <Link to="/seznamprihlasenych" className="link">
+             <Link to="/seznamprihlasenychAkce1" className="link">
                  SEZNAM PŘIHLÁŠENÝCH
               </Link>
             </li>
