@@ -19,7 +19,11 @@ export const ONas = () => {
     <div className="o_nas">
       <h1>O nás</h1>
       <p>
-      V TK Cvrček věříme, že pobyt v přírodě je pro děti a mládež nesmírně důležitý. Učí je respektu k životnímu prostředí, rozvíjí jejich fyzickou a psychickou kondici a podporuje jejich kamarádství. Proto pořádáme letní tábory, víkendové výlety a další akce, na kterých se děti a mládež můžou s radostí pustit do nejrůznějších aktivit. Každý rok se těšíme na tábory pod stanem v krásné přírodě nedaleko Lysic u Brna. Tábory jsou skvělou příležitostí, jak se seznámit s novými kamarády a zažít nezapomenutelné dobrodružství.
+      V TK Cvrček věříme, že pobyt v přírodě je pro děti a mládež nesmírně důležitý. Učí je respektu k životnímu prostředí, 
+      rozvíjí jejich fyzickou a psychickou kondici a podporuje jejich kamarádství. Proto pořádáme letní tábory, víkendové 
+      výlety a další akce, na kterých se děti a mládež mohou s radostí pustit do nejrůznějších aktivit. Každý rok se 
+      těšíme na tábory pod stanem v krásné přírodě nedaleko Lysic u Brna. Tábory jsou skvělou příležitostí, jak se 
+      seznámit s novými kamarády a zažít nezapomenutelná dobrodružství.
       </p>
       <h3>Tým vedoucích</h3>
       <p>
