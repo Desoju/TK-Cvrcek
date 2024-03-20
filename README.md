@@ -6,7 +6,6 @@ Co je ještě potřeba udělat: (od nejurgentnějšího)
 4) zprovoznit odesílání otázek
 5) rozložení pro mobil a tablet
 6) font textů
-7) zarovnat text v LeftSidebar do středu
 
 
 Zeptat se:

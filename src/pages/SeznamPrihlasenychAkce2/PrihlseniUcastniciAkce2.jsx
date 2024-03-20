@@ -1,3 +1,4 @@
+/* TÁBOR 2024 */
 export const PrihlaseniUcastnciAkce2 = [
   { name: "", paid: "" },
   { name: "", paid: "" },
