@@ -3,7 +3,7 @@ export const PrihlaseniUcastnciAkce1 = [
   { name: "Bär Vojta", paid: "680,-" },
   { name: "Bärová Lenka", paid: "680,-" },
   { name: "Bär Lukáš", paid: "680,-" },
-  { name: "Morávek Patrik", paid: "680,-" },
+  { name: "Morávková Klára", paid: "680,-" },
   { name: "Ďásek Martin", paid: "680,-" },
   { name: "Sušánková Martina", paid: "680,-" },
   { name: "Gold Ondřej", paid: "680,-" },
