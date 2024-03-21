@@ -1,3 +1,4 @@
+/* OBŮRKA 5-7 4. 2024 */
 export const PrihlaseniUcastnciAkce1 = [
   { name: "Bär Vojta", paid: "680,-" },
   { name: "Bärová Lenka", paid: "680,-" },

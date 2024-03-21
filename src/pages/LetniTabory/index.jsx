@@ -12,17 +12,17 @@ export const LetniTabory = () => {
       <a href={letaktabor}>INFORMACE</a>
       <a href={prihlaska}>PŘIHLÁŠKA</a>
       <a href={pokyny}>PODROBNÉ POKYNY PRO PLATBU A PŘIHLÁŠENÍ</a>
-      {/*<ul>
+      <ul>
         <li>
-          <Link to="/seznamprihlasenych" className="seznam_prihlasenych">
+          <Link to="/SeznamPrihlasenychAkce2" className="seznam_prihlasenych">
             SEZNAM PŘIHLÁŠENÝCH
           </Link>
         </li>
-      </ul> */}
+      </ul>
       <h3>Program</h3>
       <p>
         Táborem bude děti provázet celotáborová hra s propracovaným programem se
-        spoustou zajímavých aktivit a zážitků. Dále se děti můžou těšit na
+        spoustou zajímavých aktivit a zážitků. Dále se děti mohou těšit na
         výlety po okolí, koupání v nedaleké nádrži a učení se tábornickým
         dovednostem, jako je zdravověda, uzly, znalost rostlin a rozdělávání
         ohně.
