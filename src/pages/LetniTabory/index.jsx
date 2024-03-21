@@ -14,7 +14,7 @@ export const LetniTabory = () => {
       <a href={pokyny}>PODROBNÉ POKYNY PRO PLATBU A PŘIHLÁŠENÍ</a>
       <ul>
         <li>
-          <Link to="/SeznamPrihlasenychAkce2" className="seznam_prihlasenych">
+          <Link to="/SeznamPrihlasenychTabor" className="seznam_prihlasenych">
             SEZNAM PŘIHLÁŠENÝCH
           </Link>
         </li>
