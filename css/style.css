@@ -1,3 +1,7 @@
-.seznam_prihlasenych {
-  color: aquamarine;
+.links {
+  display: flex;
+}
+.links__link {
+  width: 50px;
+  margin: 0 10px;
 }/*# sourceMappingURL=style.css.map */
