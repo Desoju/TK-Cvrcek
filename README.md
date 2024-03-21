@@ -1,18 +1,13 @@
 Co je ještě potřeba udělat: (od nejurgentnějšího)
 
-1) zjistit, jak měnit text v Main a ostatní zachovat
-2) Napolohovat logo CTU, aby se nepohybovalo při scrollování
-3) přidat odkazy na facebook, instagram a discord
-4) zprovoznit odesílání otázek
-5) rozložení pro mobil a tablet
-6) font textů
+-> Napolohovat logo CTU, aby se nepohybovalo při scrollování
+-> zprovoznit odesílání otázek
+-> rozložení pro mobil a tablet
+-> font textů
+-> dvakrát main v sobě
+-> rozložení hlavní stránky (vedle sebe)
 
-
-Zeptat se:
-1) V AkceVRoce v jednotlivých akcích poslední odkaz proklik? Na co?
-2) Můžu si dát odkaz do LinkedIn?
 
 RUDA vyváděl:
 1) na uvodní stránce je to podtržený a zvýrazňuje se to modře
-2) několik věcí jsem schoval do poznámek aby nebyly zbytečně matoucí když tam zatím nejsou třeba
-3) je třeba pak rozdělit přihlášený účastníky k táborům a k akcím v roce zvlášť
+2) několik věcí jsem schoval do poznámek aby nebyly zbytečně matoucí když tam zatím nejsou třeba -- dobré uvažování, nechceme rodiče plést víc než je nutné
