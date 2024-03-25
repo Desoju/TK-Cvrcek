@@ -1,7 +1,42 @@
-.links {
-  display: flex;
+.uvodni_stranka li {
+  margin-bottom: 20px;
 }
-.links__link {
-  width: 50px;
-  margin: 0 10px;
+@media (max-width: 576px) {
+  .uvodni_stranka__hlavni_menu {
+    display: flex;
+    flex-direction: column;
+  }
+  .uvodni_stranka__icon {
+    width: 100px;
+    display: flex;
+  }
+}
+@media (min-width: 576px) {
+  .uvodni_stranka__icon {
+    width: 100px;
+    display: flex;
+  }
+}/*# sourceMappingURL=style.css.map */h: 576px) {
+  .left_sidebar .links {
+    display: none;
+  }
+}
+@media (min-width: 900px) {
+  .left_sidebar {
+    padding: 10px 20px 50px;
+    margin: 20px 200px 50px 50px;
+  }
+}/*# sourceMappingURL=style.css.map */top: 0;
+    right: 0;
+    margin: 20px;
+  }
+  .whole .main {
+    width: 750px;
+    margin-left: 0px;
+  }
+}/*# sourceMappingURL=style.css.map */{
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none;
+  color: white;
 }/*# sourceMappingURL=style.css.map */

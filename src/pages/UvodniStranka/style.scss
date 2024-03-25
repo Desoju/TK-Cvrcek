@@ -1,14 +1,30 @@
-.icon{
-  width: 100px;
-  display: flex;
-}
+$breakpoint-small: 576px; // For phones
+$breakpoint-big: 900px; // For tablets, laptops and bigger
 
-.p{
-  color:rgb(255, 255, 255);
-  text-decoration: none;
-}
+.uvodni_stranka{
+  li{
+    margin-bottom: 20px;
+  }
+  @media (max-width: $breakpoint-small) {
 
-p:hover {
-  color: white;
-  text-decoration: none;
+    &__hlavni_menu{
+      display: flex;
+      flex-direction: column;
+    }
+
+    &__icon{
+      width: 100px;
+      display: flex;
+    }
+  }
+
+  @media (min-width: $breakpoint-small){
+    &__icon{
+      width: 100px;
+      display: flex;
+    }
+  }
+
+  @media (min-width: $breakpoint-big){
+  }
 }

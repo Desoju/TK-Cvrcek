@@ -1,20 +1,29 @@
 $breakpoint-small: 576px; // For phones
 $breakpoint-big: 900px; // For tablets, laptops and bigger
 
-.links{
+.footer{
   display: flex;
-
-  &__link{
-    width: 50px;
-    margin: 0 10px;
-  }
-
+  flex-direction: column;
+  align-items: center;
   @media (max-width: $breakpoint-small) {
+    &__logoCTU{
+      width: 200px;
+      margin: 20px;
+    }
   }
 
   @media (min-width: $breakpoint-small){
+    &__logoCTU{
+      width: 200px;
+      margin: 20px;
+    }
   }
 
   @media (min-width: $breakpoint-big){
+    margin-top: 100px;
+
+    &__logoCTU{
+      display: none;
+    }
   }
 }

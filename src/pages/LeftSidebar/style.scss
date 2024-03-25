@@ -1,37 +1,40 @@
-.left_sidebar {
+$breakpoint-small: 576px; // For phones
+$breakpoint-big: 900px; // For tablets, laptops and bigger
+
+.left_sidebar{
+
   background-color: #405c2f;
-  padding: 10px 20px 50px;
-  margin: 20px 200px 50px 50px;
+  width: 100%;
+  padding: 10px 30px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   position: relative;
   overflow: hidden;
   opacity: 90%;
-}
+  margin-bottom: 20px;
 
-.logo_cvrcek{
-  width: 150px;
-  margin: 10px;
-  object-fit: cover;
-}
-
-.text_adresa{
-  color: white;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
-  &--bold{
-    font-weight: bold;
+  &__logo_cvrcek{
+    width: 150px;
+    margin: 10px;
+    object-fit: cover;
   }
 
-  p{
-    margin: 2px;
-  }
-}
+  @media (max-width: $breakpoint-small) {
 
-.otazka{
-  width: 220px;
-  padding: 5px;
+    .links{
+      display: none;
+    }
+
+  }
+
+  @media (min-width: $breakpoint-small){
+
+
+  }
+
+  @media (min-width: $breakpoint-big){
+    padding: 10px 20px 50px;
+    margin: 20px 200px 50px 50px;
+  }
 }

@@ -10,25 +10,22 @@ export const UvodniStranka = () => {
   return (
     <div className="uvodni_stranka">
       {<Countdown targetDate={targetDate} />}
-      <div className="hlavni_menu">
+      <div className="uvodni_stranka__hlavni_menu">
         <ul>
           <li>
             <Link to="/onas">
-              <img src={cricket} alt="stan" className="icon" />
-              <p className="p">O nás</p>
+              <img src={cricket} alt="stan" className="uvodni_stranka__icon" />O nás
             </Link>
           </li>
           <li>
             <Link to="/letnitabory">
               {" "}
-              <img src={camping} alt="stan" className="icon" />
-              <p className="p">Letní tábory</p>
+              <img src={camping} alt="stan" className="uvodni_stranka__icon" />Letní tábory
             </Link>
           </li>
           <li>
             <Link to="/akcevroce">
-              <img src={calendar} alt="kalendář" className="icon" />
-              <p className="p">Akce v průběhu roku</p>
+              <img src={calendar} alt="kalendář" className="uvodni_stranka__icon" />Akce v průběhu roku
             </Link>
           </li>
         </ul>

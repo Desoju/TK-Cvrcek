@@ -4,7 +4,7 @@ import letaktabor from "./../../documents/Letak_Oburka.pdf";
 
 export const AkcevRoce = () => {
   return (
-    <div className="akce_v_roce">
+    <div className="akce-v-roce">
       <h1>Akce v průběhu roku</h1>
       
       <p>
@@ -13,8 +13,8 @@ export const AkcevRoce = () => {
         vedoucích.
       </p>
       <p>Momentálně naplánované akce:</p>
-      <div className="momentalini_akce">
-        <div className="akce1">
+      <div className="akce-v-roce__momentalini_akce">
+        <div className="akce-v-roce__momentalini_akce__akce1">
           <p>Jarní Obůrka</p>
           <p>5.-7. 4. 2024</p>
           <a href={letaktabor}>INFORMACE</a>
@@ -27,13 +27,13 @@ export const AkcevRoce = () => {
           </ul>
           {/*<p>Přihlášení účastníci</p>*/}
         </div>
-        <div className="akce2">
+        <div className="akce-v-roce__momentalini_akce__akce2">
           <p>Předtáborová Obůrka</p>
           <p>21.-23. 6. 2024</p>
           {/* <a href="" className="prozatim">INFO (zatím není)</a> */}
           {/*<p>Přihlášení účastníci</p>*/}
         </div>
-        {/*<div className="akce3">
+        {/*<div className="akce-v-roce__momentalini_akce__akce3">
           <p>Název</p>
           <p>Datum</p>
           <p>Info</p>

@@ -1,10 +1,53 @@
-.whole{
-  display: flex;
-}
+$breakpoint-small: 576px; // For phones
+$breakpoint-big: 900px; // For tablets, laptops and bigger
 
-.logoCTU{
-  width: 200px;
-  position:fixed;
-  right: 100px;
-  margin: 5px;
+.whole{
+  padding: 20px;
+
+  @media (max-width: $breakpoint-small) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__logoCTU {
+      display: none;
+    }
+  }
+
+  @media (min-width: $breakpoint-small){
+
+    &__components{
+      display: flex;
+
+      .left_sidebar{
+        width: 250px;
+        padding: 10px;
+      }
+  
+      .main{
+        width: 400px;
+        margin-left: 50px;
+      }
+    }
+
+    &__logoCTU {
+      display: none;
+    }
+  }
+
+  @media (min-width: $breakpoint-big){
+    &__logoCTU {
+      display: block;
+      width: 200px;
+      position: absolute;
+      top: 0;
+      right: 0;
+      margin: 20px;
+    }
+
+    .main{
+      width: 750px;
+      margin-left: 0px;
+    }
+  }
 }

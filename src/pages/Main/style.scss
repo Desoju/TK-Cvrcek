@@ -1,9 +1,20 @@
+$breakpoint-small: 576px; // For phones
+$breakpoint-big: 900px; // For tablets, laptops and bigger
+
 .main{
-  width: 800px;
+  width: 100%;
   background-color: #405c2f;
   color: white;
   opacity: 90%;
   display: flex;
   padding: 20px;
-  margin-top: 100px;
+
+  @media (max-width: $breakpoint-small) {
+  }
+
+  @media (min-width: $breakpoint-small){
+  }
+
+  @media (min-width: $breakpoint-big){
+  }
 }
