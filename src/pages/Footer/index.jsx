@@ -11,7 +11,7 @@ export const Footer = () => {
         alt="logo české tábornické unie"
       />
       <div className="footer__copyright">
-        <p>&copy; Julie Desová</p>
+        <p>&copy; Julie Desová, TK Cvrček 2024</p>
       </div>
       <Links className="footer__links" />
     </footer>

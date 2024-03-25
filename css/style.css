@@ -1,38 +1,32 @@
-.whole {
-  padding: 20px;
+.uvodni_stranka li {
+  margin-bottom: 20px;
 }
 @media (max-width: 576px) {
-  .whole {
+  .uvodni_stranka__hlavni_menu {
     display: flex;
     flex-direction: column;
-    align-items: center;
   }
-  .whole__logoCTU {
-    display: none;
+  .uvodni_stranka__icon {
+    width: 100px;
+    display: flex;
   }
 }
 @media (min-width: 576px) {
-  .whole__components {
+  .uvodni_stranka__icon {
+    width: 100px;
     display: flex;
   }
-  .whole__components .left_sidebar {
-    width: 250px;
-    padding: 10px;
-  }
-  .whole__components .main {
-    width: 400px;
-    margin-left: 50px;
-  }
-  .whole__logoCTU {
+}/*# sourceMappingURL=style.css.map */h: 576px) {
+  .left_sidebar .links {
     display: none;
   }
 }
 @media (min-width: 900px) {
-  .whole__logoCTU {
-    display: block;
-    width: 200px;
-    position: absolute;
-    top: 0;
+  .left_sidebar {
+    padding: 10px 20px 50px;
+    margin: 20px 200px 50px 50px;
+  }
+}/*# sourceMappingURL=style.css.map */top: 0;
     right: 0;
     margin: 20px;
   }
@@ -40,4 +34,9 @@
     width: 750px;
     margin-left: 0px;
   }
+}/*# sourceMappingURL=style.css.map */{
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none;
+  color: white;
 }/*# sourceMappingURL=style.css.map */
