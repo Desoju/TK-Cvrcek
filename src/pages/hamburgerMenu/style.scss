@@ -1,7 +1,19 @@
-.hamburger-menu {
-  position: relative;
-}
+$breakpoint-small: 576px; // For phones
+$breakpoint-big: 900px; // For tablets, laptops and bigger
 
+.hamburger-menu{
+  position: relative;
+
+  @media (max-width: $breakpoint-small) {
+  }
+
+  @media (min-width: $breakpoint-small){
+
+  }
+
+  @media (min-width: $breakpoint-big) {
+  }
+}
 .hamburger-icon {
   background: none;
   border: none;

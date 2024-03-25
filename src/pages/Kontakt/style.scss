@@ -1,12 +1,18 @@
 $breakpoint-small: 576px; // For phones
 $breakpoint-big: 900px; // For tablets, laptops and bigger
 
-.links{
+.kontakt{
+  color: white;
   display: flex;
+  flex-direction: column;
+  align-items: center;
 
-  &__link{
-    width: 50px;
-    margin: 0 10px;
+  &--bold{
+    font-weight: bold;
+  }
+
+  p{
+    margin: 2px;
   }
 
   @media (max-width: $breakpoint-small) {

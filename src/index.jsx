@@ -10,6 +10,7 @@ import { SeznamPrihlasenychAkce2 } from "./pages/SeznamPrihlasenychAkce2";
 import { SeznamPrihlasenychAkce3 } from "./pages/SeznamPrihlasenychAkce3";
 import { SeznamPrihlasenychTabor } from "./pages/SeznamPrihlasenychTabor";
 import { UvodniStranka } from "./pages/UvodniStranka";
+import { Kontakt } from "./pages/Kontakt";
 import "./global.scss";
 
 const App = () => {
@@ -25,6 +26,7 @@ const App = () => {
           <Route path="seznamprihlasenychakce2" element={<SeznamPrihlasenychAkce2 />} />
           <Route path="seznamprihlasenychakce3" element={<SeznamPrihlasenychAkce3 />} />
           <Route path="seznamprihlasenychtabor" element={<SeznamPrihlasenychTabor />} />
+          <Route path="kontakt" element={<Kontakt />} />
         </Route>
       </Routes>
     </Router>

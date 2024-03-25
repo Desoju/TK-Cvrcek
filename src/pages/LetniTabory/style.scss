@@ -1,21 +1,34 @@
-ul {
-  margin: 0;
-  padding: 0;
-  background-color: #405c2f;
-}
+$breakpoint-small: 576px; // For phones
+$breakpoint-big: 900px; // For tablets, laptops and bigger
 
-li { 
-  display: block; 
-}
+.letni_tabory{
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  li { 
+    display: block; 
+  }
+  
+  a {
+    display: block;
+    padding: 6px 12px;
+    text-decoration: underline;
+    color: white;
+    font-weight: 400;
+  }
+  
+  a:hover {
+    color: blue;
+  }
+  @media (max-width: $breakpoint-small) {
+  }
 
-a {
-  display: block;
-  padding: 6px 12px;
-  text-decoration: underline;
-  color: white;
-  font-weight: 400;
-}
+  @media (min-width: $breakpoint-small){
+    margin: 10px;
+  }
 
-a:hover {
-  color: blue;
+  @media (min-width: $breakpoint-big){
+  }
 }

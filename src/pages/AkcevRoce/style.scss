@@ -1,40 +1,45 @@
-ul {
-  margin: 0;
-  padding: 0;
-  background-color: #405c2f;
-}
+$breakpoint-small: 576px; // For phones
+$breakpoint-big: 900px; // For tablets, laptops and bigger
 
-li { 
-  display: block; 
-}
+.akce_v_roce{
+  ul {
+    margin: 0;
+    padding: 0;
+    background-color: #405c2f;
+  }
+  
+  li { 
+    display: block; 
+  }
+  
+  a {
+    display: block;
+    padding: 6px 12px;
+  }
 
-a {
-  display: block;
-  padding: 6px 12px;
-  text-decoration: none;
-  color: white;
-}
+  @media (max-width: $breakpoint-small) {
+  }
 
-.prozatim {
-  display: block;
-  padding: 6px 12px;
-  text-decoration: none;
-  color: white;
-}
+  @media (min-width: $breakpoint-small){
+    &__momentalini_akce{
+      display: grid;
+      grid-template-columns: 30% 5% 30% 5% 30%;
+    
+      &__akce1{
+        grid-column: 1;
+      }
+      
+      &__akce2{
+        grid-column: 3;
+      }
+      
+      &__akce3{
+        grid-column: 5;
+      }
+    }
+    
+  }
 
-.momentalini_akce{
-  display: grid;
-  grid-template-columns: 30% 5% 30% 5% 30%;
-}
-
-.akce1{
-  grid-column: 1;
-}
-
-.akce2{
-  grid-column: 3;
-}
-
-.akce3{
-  grid-column: 5;
+  @media (min-width: $breakpoint-big){
+  }
 }
