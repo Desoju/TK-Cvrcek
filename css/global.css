@@ -20,5 +20,8 @@ body {
 
 a {
   color: white;
-  display: block;
+}
+
+ul {
+  list-style-type: none;
 }/*# sourceMappingURL=global.css.map */

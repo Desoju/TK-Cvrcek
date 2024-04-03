@@ -19,7 +19,7 @@ export const SeznamPrihlasenychAkce3 = () => {
               <tr key={index}>
                 <td>{index + 1}</td>
                 <td>{val.name}</td>
-                <td>{val.paid}</td>
+                <td>{val.paid} Kč</td>
               </tr>
             );
           })}

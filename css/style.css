@@ -1,42 +1,27 @@
-.uvodni_stranka li {
-  margin-bottom: 20px;
+.akce_v_roce ul {
+  margin: 0;
+  padding: 0;
+  background-color: #405c2f;
 }
-@media (max-width: 576px) {
-  .uvodni_stranka__hlavni_menu {
-    display: flex;
-    flex-direction: column;
-  }
-  .uvodni_stranka__icon {
-    width: 100px;
-    display: flex;
-  }
+.akce_v_roce li {
+  display: block;
 }
-@media (min-width: 576px) {
-  .uvodni_stranka__icon {
-    width: 100px;
-    display: flex;
-  }
-}/*# sourceMappingURL=style.css.map */h: 576px) {
-  .left_sidebar .links {
-    display: none;
-  }
-}
-@media (min-width: 900px) {
-  .left_sidebar {
-    padding: 10px 20px 50px;
-    margin: 20px 200px 50px 50px;
-  }
-}/*# sourceMappingURL=style.css.map */top: 0;
-    right: 0;
-    margin: 20px;
-  }
-  .whole .main {
-    width: 750px;
-    margin-left: 0px;
-  }
-}/*# sourceMappingURL=style.css.map */{
+.akce_v_roce a {
   display: block;
   padding: 6px 12px;
-  text-decoration: none;
-  color: white;
+}
+@media (min-width: 576px) {
+  .akce_v_roce__momentalini_akce {
+    display: grid;
+    grid-template-columns: 30% 5% 30% 5% 30%;
+  }
+  .akce_v_roce__momentalini_akce__akce1 {
+    grid-column: 1;
+  }
+  .akce_v_roce__momentalini_akce__akce2 {
+    grid-column: 3;
+  }
+  .akce_v_roce__momentalini_akce__akce3 {
+    grid-column: 5;
+  }
 }/*# sourceMappingURL=style.css.map */
