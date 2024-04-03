@@ -1,6 +1,7 @@
 import "./style.scss";
 import { Link } from "react-router-dom";
 import letaktabor from "./../../documents/Letak_Oburka.pdf";
+import proprihlasene from "./../../documents/Pokyny pro účastníky.pdf";
 
 export const AkcevRoce = () => {
   return (
