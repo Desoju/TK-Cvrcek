@@ -1,27 +1,45 @@
-.akce_v_roce ul {
-  margin: 0;
-  padding: 0;
-  background-color: #405c2f;
+.uvodni_stranka li {
+  margin-bottom: 20px;
 }
-.akce_v_roce li {
-  display: block;
-}
-.akce_v_roce a {
-  display: block;
-  padding: 6px 12px;
+@media (max-width: 576px) {
+  .uvodni_stranka__hlavni_menu {
+    display: flex;
+    flex-direction: column;
+  }
+  .uvodni_stranka__icon {
+    width: 100px;
+    display: flex;
+  }
 }
 @media (min-width: 576px) {
-  .akce_v_roce__momentalini_akce {
-    display: grid;
-    grid-template-columns: 30% 5% 30% 5% 30%;
+  .uvodni_stranka__icon {
+    width: 100px;
+    display: flex;
   }
-  .akce_v_roce__momentalini_akce__akce1 {
-    grid-column: 1;
+}/*# sourceMappingURL=style.css.map */ .main {
+    width: 400px;
+    margin-left: 50px;
   }
-  .akce_v_roce__momentalini_akce__akce2 {
-    grid-column: 3;
+  .whole__logoCTU {
+    display: none;
   }
-  .akce_v_roce__momentalini_akce__akce3 {
-    grid-column: 5;
+}
+@media (min-width: 900px) {
+  .whole__logoCTU {
+    display: block;
+    width: 200px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 20px;
   }
+  .whole .main {
+    width: 750px;
+    margin-left: 0px;
+  }
+}/*# sourceMappingURL=style.css.map */{
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none;
+  color: white;
 }/*# sourceMappingURL=style.css.map */

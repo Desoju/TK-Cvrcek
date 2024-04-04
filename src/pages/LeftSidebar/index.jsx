@@ -3,7 +3,8 @@ import "./style.scss";
 import Logo_Cvrcek_Barev from "./../../images/logos/Logo_Cvrcek_Barev.png";
 import { Link } from "react-router-dom";
 import { Links } from "./../Links";
-import { Kontakt } from "../Kontakt";
+import { Kontakt } from "./../Kontakt";
+import { QuestionForm } from "../QuestionForm";
 
 export const LeftSidebar = () => {
   return (
@@ -19,23 +20,7 @@ export const LeftSidebar = () => {
       <br />
       <Kontakt />
       <Links className="links" />
+      <QuestionForm />
     </div>
   );
 };
-
-{
-  /*
-      <form >
-        <input
-          type="email"
-          id="email"
-          name="email"
-          placeholder="Vaše e-mailová adresa..."
-          autoComplete="email"
-          className="otazka"
-        />
-        <br />
-        <input type="text" id="otazka" name="otazka" placeholder="Otázka..." className="otazka"/>
-      </form>
-       */
-}
