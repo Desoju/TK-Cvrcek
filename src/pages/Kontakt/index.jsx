@@ -10,10 +10,6 @@ export const Kontakt = () => {
       <p>Zbraslav 664 84</p>
       <p>IČ: XXXXXXXXXXXXX</p>
       <p>E-mail: tkcvrcek@gmail.com</p>
-      <p></p>
-      <br />
-      <p className="text_adresa--bold">Máte otázku? Napište nám!</p>
-      <br />
     </div>
   );
 };
