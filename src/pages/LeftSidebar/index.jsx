@@ -20,7 +20,6 @@ export const LeftSidebar = () => {
       <br />
       <Kontakt />
       <Links className="links" />
-      <QuestionForm />
     </div>
   );
 };
