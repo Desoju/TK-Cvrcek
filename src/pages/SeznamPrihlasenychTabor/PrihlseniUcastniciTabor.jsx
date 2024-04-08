@@ -9,7 +9,7 @@ export const PrihlaseniUcastnciTabor = [
   { name: "Ďásek Martin", paid: "2500" },
   { name: "Jurečková Zuzka", paid: "2500" },
   { name: "Pospíšilová Lucie", paid: "2500" },
-  { name: "", paid: "" },
+  { name: "Zvěřina Štěpán", paid: "2500" },
   { name: "", paid: "" },
   { name: "", paid: "" },
   { name: "", paid: "" },
