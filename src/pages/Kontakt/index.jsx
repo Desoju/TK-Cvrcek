@@ -8,7 +8,7 @@ export const Kontakt = () => {
       <br />
       <p>Březina 385,</p>
       <p>Zbraslav 664 84</p>
-      <p>IČ: XXXXXXXXXXXXX</p>
+      <p>IČ: 21343080</p>
       <p>E-mail: tkcvrcek@gmail.com</p>
     </div>
   );
