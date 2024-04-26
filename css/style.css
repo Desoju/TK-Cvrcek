@@ -1,43 +1,45 @@
-.uvodni_stranka li {
-  margin-bottom: 20px;
-}
 @media (max-width: 576px) {
-  .uvodni_stranka__hlavni_menu {
+  .zaznam-kroniky__fotky {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
   }
-  .uvodni_stranka__icon {
-    width: 100px;
-    display: flex;
+  .zaznam-kroniky__fotky__fotka {
+    width: 100%;
+    margin: 10px;
   }
 }
 @media (min-width: 576px) {
-  .uvodni_stranka__icon {
-    width: 100px;
+  .zaznam-kroniky__fotky {
     display: flex;
+    flex-wrap: wrap;
   }
-}/*# sourceMappingURL=style.css.map */ .main {
-    width: 400px;
-    margin-left: 50px;
-  }
-  .whole__logoCTU {
-    display: none;
+  .zaznam-kroniky__fotky__fotka {
+    width: 50%;
   }
 }
 @media (min-width: 900px) {
-  .whole__logoCTU {
-    display: block;
-    width: 200px;
-    position: absolute;
-    top: 0;
-    right: 0;
-    margin: 20px;
+  .zaznam-kroniky__fotky__fotka {
+    width: 25%;
   }
-  .whole .main {
-    width: 750px;
-    margin-left: 0px;
-  }
-}/*# sourceMappingURL=style.css.map */{
+}/*# sourceMappingURL=style.css.map */5px, -6px);
+}
+
+.menu-content {
+  display: none;
+}
+.menu-content.open {
+  display: flex;
+}
+.menu-content ul {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(49, 127, 0, 0.7058823529);
+}
+.menu-content li {
+  display: block;
+  text-align: center;
+}
+.menu-content a {
   display: block;
   padding: 6px 12px;
   text-decoration: none;

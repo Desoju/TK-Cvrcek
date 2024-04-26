@@ -2,6 +2,7 @@ import { Countdown } from "../Countdown";
 import cricket from "./../../images/icons/cricket.png";
 import calendar from "./../../images/icons/calendar.png";
 import camping from "./../../images/icons/camping.png";
+import camera from "./../../images/icons/camera.png";
 import { Link } from "react-router-dom";
 import "./style.scss";
 
@@ -26,6 +27,11 @@ export const UvodniStranka = () => {
           <li>
             <Link to="/akcevroce">
               <img src={calendar} alt="kalendář" className="uvodni_stranka__icon" />Akce v průběhu roku
+            </Link>
+          </li>
+          <li>
+            <Link to="/kronika">
+              <img src={camera} alt="kronika" className="uvodni_stranka__icon" />Kronika
             </Link>
           </li>
         </ul>

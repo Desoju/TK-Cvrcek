@@ -1,14 +1,7 @@
 $breakpoint-small: 576px; // For phones
 $breakpoint-big: 900px; // For tablets, laptops and bigger
 
-.links{
-  display: flex;
-  margin-top: 10px;
-
-  &__link{
-    width: 50px;
-    margin: 0 10px;
-  }
+.kronika{
 
   @media (max-width: $breakpoint-small) {
   }

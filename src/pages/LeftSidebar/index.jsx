@@ -4,7 +4,6 @@ import Logo_Cvrcek_Barev from "./../../images/logos/Logo_Cvrcek_Barev.png";
 import { Link } from "react-router-dom";
 import { Links } from "./../Links";
 import { Kontakt } from "./../Kontakt";
-import { QuestionForm } from "../QuestionForm";
 
 export const LeftSidebar = () => {
   return (

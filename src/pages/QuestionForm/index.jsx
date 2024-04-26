@@ -1,3 +1,4 @@
+/*
 import { useState } from 'react';
 import axios from 'axios';
 import "./style.scss";
@@ -33,7 +34,7 @@ export const QuestionForm= () => {
           name="email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
-          autofill
+          autoComplete="email"
         />
         <textarea
           className="write-us-form__textarea"
@@ -49,3 +50,4 @@ export const QuestionForm= () => {
     </div>
   );
 };
+*/

@@ -27,6 +27,9 @@ export const HamburgerMenu = () => {
           <li>
             <Link to="/akcevroce">Akce v průběhu roku</Link>
           </li>
+          <li>
+            <Link to="/kronika">Kronika</Link>
+          </li>
         </ul>
       </div>
     </div>

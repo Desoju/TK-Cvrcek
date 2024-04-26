@@ -1,5 +1,5 @@
 // Backend server code (e.g., server.js)
-
+/*
 const express = require('express');
 const bodyParser = require('body-parser');
 const nodemailer = require('nodemailer');
@@ -19,15 +19,15 @@ app.post('/submit-question', async (req, res) => {
     const transporter = nodemailer.createTransport({
       service: 'Gmail',
       auth: {
-        user: 'your_email@gmail.com',
-        pass: 'your_password',
+        user: 'juliedesova@gmail.com',
+        pass: 'a33*WmijBYa^7rPX%d',
       },
     });
 
     // Define email options
     const mailOptions = {
-      from: 'your_email@gmail.com',
-      to: 'desovajulie@seznam.cz',
+      from: 'juliedesova@seznam.cz',
+      to: 'juliedesova@gmail.com',
       subject: 'Nova otazka z webu',
       text: `Question: ${question}`,
     };
@@ -47,3 +47,4 @@ app.post('/submit-question', async (req, res) => {
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
+*/

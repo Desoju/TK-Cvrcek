@@ -11,6 +11,7 @@ import { SeznamPrihlasenychAkce3 } from "./pages/SeznamPrihlasenychAkce3";
 import { SeznamPrihlasenychTabor } from "./pages/SeznamPrihlasenychTabor";
 import { UvodniStranka } from "./pages/UvodniStranka";
 import { Kontakt } from "./pages/Kontakt";
+import { Kronika } from "./pages/Kronika";
 import "./global.scss";
 
 const App = () => {
@@ -27,6 +28,7 @@ const App = () => {
           <Route path="seznamprihlasenychakce3" element={<SeznamPrihlasenychAkce3 />} />
           <Route path="seznamprihlasenychtabor" element={<SeznamPrihlasenychTabor />} />
           <Route path="kontakt" element={<Kontakt />} />
+          <Route path="kronika" element={<Kronika />} />
         </Route>
       </Routes>
     </Router>

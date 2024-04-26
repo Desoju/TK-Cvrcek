@@ -1,0 +1,33 @@
+$breakpoint-small: 576px; // For phones
+$breakpoint-big: 900px; // For tablets, laptops and bigger
+
+.zaznam-kroniky{
+  @media (max-width: $breakpoint-small) {
+    &__fotky{
+      display: flex;
+      flex-wrap: wrap;
+      &__fotka{
+        width: 100%;
+        margin: 10px;
+      }
+    }
+  }
+
+  @media (min-width: $breakpoint-small){
+    &__fotky{
+      display: flex;
+      flex-wrap: wrap;
+      &__fotka{
+        width: 50%;
+      }
+    }
+  }
+
+  @media (min-width: $breakpoint-big){
+    &__fotky{
+      &__fotka{
+        width: 25%;
+      }
+    }
+  }
+}
