@@ -1,9 +1,9 @@
 /* OBŮRKA 5-7 4. 2024 */
 export const PrihlaseniUcastnciAkce1 = [
   { name: "Martin Ďásek", paid: "680 Kč" },
-  { name: "", paid: "" },
-  { name: "", paid: "" },
-  { name: "", paid: "" },
+  { name: "Šufeislová Emma", paid: "680 Kč" },
+  { name: "Šufejslová Isabella ", paid: "680 Kč" },
+  { name: "Březinová Michaela", paid: "680 Kč" },
   { name: "", paid: "" },
   { name: "", paid: "" },
   { name: "", paid: "" },
