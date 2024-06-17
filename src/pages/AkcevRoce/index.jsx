@@ -16,7 +16,7 @@ export const AkcevRoce = () => {
       <p>Momentálně naplánované akce:</p>
       <div className="akce-v-roce__momentalini_akce">
         <div className="akce-v-roce__momentalini_akce__akce1">
-          <p>Předtáborová Obůrka</p>
+          <h2>Předtáborová Obůrka</h2>
           <p>21.-23. 6. 2024</p>
           <a href={letaktabor}>INFORMACE</a>
           <br></br>
@@ -28,7 +28,7 @@ export const AkcevRoce = () => {
           
         </div>
         <div className="akce-v-roce__momentalini_akce__akce2">
-          <p>Výlet do naší historie a přírody</p>
+          <h2>Výlet do naší historie a přírody</h2>
           <p>14.-15. 9. 2024</p>
           <p>Informace přidáme jak se bude akce blížit a budeme informovat skrze mail</p>
           {/* <a href="" className="prozatim">INFO (zatím není)</a> */}
