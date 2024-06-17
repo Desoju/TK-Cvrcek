@@ -1,7 +1,7 @@
 import "./style.scss";
 import { Link } from "react-router-dom";
 import letaktabor from "./../../documents/Letak_Leto_Obruka.pdf";
-/*import proprihlasene from "./../../documents/Pokyny pro účastníky.pdf";*/
+import proprihlasene from "./../../documents/Pokyny_pred_odjezdem_Leto_Oburka.pdf";
 
 export const AkcevRoce = () => {
   return (
@@ -20,16 +20,17 @@ export const AkcevRoce = () => {
           <p>21.-23. 6. 2024</p>
           <a href={letaktabor}>INFORMACE</a>
           <br></br>
-          {/*<a href={proprihlasene}>PODROBNÉ INFORMACE PŘED ODJEZDEM</a>
-          <br /> */}
+          <a href={proprihlasene}>PODROBNÉ INFORMACE PŘED ODJEZDEM</a>
+          <br />
           <Link to="/seznamprihlasenychAkce1" className="link">
             SEZNAM PŘIHLÁŠENÝCH
           </Link>
           
         </div>
         <div className="akce-v-roce__momentalini_akce__akce2">
-          <p></p>
-          <p></p>
+          <p>Výlet do naší historie a přírody</p>
+          <p>14.-15. 9. 2024</p>
+          <p>Informace přidáme jak se bude akce blížit a budeme informovat skrze mail</p>
           {/* <a href="" className="prozatim">INFO (zatím není)</a> */}
           {/*<p>Přihlášení účastníci</p>*/}
         </div>
