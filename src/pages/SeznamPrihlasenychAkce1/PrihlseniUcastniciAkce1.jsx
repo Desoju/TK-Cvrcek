@@ -17,7 +17,7 @@ export const PrihlaseniUcastnciAkce1 = [
   { name: "Šťastná Adéla", paid: "680 Kč" },
   { name: "Stavinoha Ondřej", paid: "680 Kč" },
   { name: "Macháčková Alžběta", paid: "680 Kč" },
-  { name: "", paid: "" },
+  { name: "Kaňa Kryštof", paid: "680 Kč" },
   { name: "", paid: "" },
   { name: "", paid: "" },
   { name: "", paid: "" },
