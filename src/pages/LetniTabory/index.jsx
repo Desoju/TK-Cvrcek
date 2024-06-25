@@ -14,10 +14,6 @@ export const LetniTabory = () => {
       <a href={letaktabor}>INFORMACE</a>
       <a href={prihlaska}>PŘIHLÁŠKA</a>
       <a href={pokyny}>PODROBNÉ POKYNY PRO PLATBU A PŘIHLÁŠENÍ</a>
-      <p>Odevzdat na srazu před odjezdem: </p>
-      <a href={bezinfekcnost}>POTVRZENÍ O BEZINFEKČNOSTI</a>
-      <a href={zpusobilost}>POTVRZENÍ O ZDRAVOTNÍ ZPŮSOBILOSTI</a>
-
       <ul>
         <li>
           <Link to="/SeznamPrihlasenychTabor" className="seznam_prihlasenych">
@@ -25,6 +21,11 @@ export const LetniTabory = () => {
           </Link>
         </li>
       </ul>
+      <p>Odevzdat na srazu před odjezdem: </p>
+      <a href={bezinfekcnost}>POTVRZENÍ O BEZINFEKČNOSTI</a>
+      <a href={zpusobilost}>POTVRZENÍ O ZDRAVOTNÍ ZPŮSOBILOSTI</a>
+
+      
       <h3>Program</h3>
       <p>
         Táborem bude děti provázet celotáborová hra s propracovaným programem se
