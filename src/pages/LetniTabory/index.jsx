@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import letaktabor from "./../../documents/Letak_tabor2024.pdf";
 import prihlaska from "./../../documents/Prihlaska_tabor2024.pdf";
 import pokyny from "./../../documents/Pokyny_pro_platbu_a_prihlaseni.pdf";
+import bezinfekcnost from "./../../documents/Bezinfekcnost_formular_LT2024.pdf";
+import zpusobilost from "./../../documents/Zdravotni_zpusobilost_LT2024.pdf";
 
 export const LetniTabory = () => {
   return (
@@ -12,6 +14,10 @@ export const LetniTabory = () => {
       <a href={letaktabor}>INFORMACE</a>
       <a href={prihlaska}>PŘIHLÁŠKA</a>
       <a href={pokyny}>PODROBNÉ POKYNY PRO PLATBU A PŘIHLÁŠENÍ</a>
+      <p>Odevzdat na srazu před odjezdem: </p>
+      <a href={bezinfekcnost}>POTVRZENÍ O BEZINFEKČNOSTI</a>
+      <a href={zpusobilost}>POTVRZENÍ O ZDRAVOTNÍ ZPŮSOBILOSTI</a>
+
       <ul>
         <li>
           <Link to="/SeznamPrihlasenychTabor" className="seznam_prihlasenych">
