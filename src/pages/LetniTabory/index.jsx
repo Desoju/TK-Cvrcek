@@ -5,12 +5,14 @@ import prihlaska from "./../../documents/Prihlaska_tabor2024.pdf";
 import pokyny from "./../../documents/Pokyny_pro_platbu_a_prihlaseni.pdf";
 import bezinfekcnost from "./../../documents/Bezinfekcnost_formular_LT2024.pdf";
 import zpusobilost from "./../../documents/Zdravotni_zpusobilost_LT2024.pdf";
+import predodjezdem from "./../../documents/Tábor-pokyny-před-odjezdem.pdf";
 
 export const LetniTabory = () => {
   return (
     <div className="letni_tabory">
       <h1>Letní tábory</h1>
       <p>Termín: 14.-27. 7. 2024</p>
+      <a href={predodjezdem}>INFORMACE PŘED ODJEZDEM!</a>
       <a href={letaktabor}>INFORMACE</a>
       <a href={prihlaska}>PŘIHLÁŠKA</a>
       <a href={pokyny}>PODROBNÉ POKYNY PRO PLATBU A PŘIHLÁŠENÍ</a>
