@@ -12,6 +12,10 @@ export const LetniTabory = () => {
     <div className="letni_tabory">
       <h1>Letní tábory</h1>
       <p>Termín: 14.-27. 7. 2024</p>
+      <p>ADRESA NA TÁBORY:</p>
+      <p>Jméno dítěte</p>
+      <p>LT TK Cvrček</p>
+      <p>Kunčina Ves 6, 679 71 pošta Lysice</p>
       <a href={predodjezdem}>INFORMACE PŘED ODJEZDEM!</a>
       <a href={letaktabor}>INFORMACE</a>
       <a href={prihlaska}>PŘIHLÁŠKA</a>
