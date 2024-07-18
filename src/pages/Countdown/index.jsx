@@ -27,7 +27,7 @@ export const Countdown = ({ targetDate }) => {
 
   return (
     <div>
-      <h3 className="countdown">Do tábora zbývá {timeRemaining.days} dní</h3>
+      {/*<h3 className="countdown">Do tábora zbývá {timeRemaining.days} dní</h3>*/}
     </div>
   );
 };
