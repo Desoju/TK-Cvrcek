@@ -21,7 +21,7 @@ export const Kronika = () => {
       <p>Večer jsme závod tedy odstartovali a po náročném startovním úseku jsme se unavení uložili do postýlek na letošní první táborovou noc. 🌙 </p>
       <p>PS: moc děkujeme všem sponzorům, kteří nám přispěli naturáliemi a pomohli tak s hladkým průběhem tábora! Díky, díky díky. 💚</p>
     <h2>DEN 2.</h2>
-      <p>Dnes jsem se ráno probudili ve Francii. 🥐</p>
+      <p>Dnes jsme se ráno probudili ve Francii. 🥐</p>
       <p>Čekala nás naše první pasová kontrola, kde každý dostal od našeho celníka 🛂razítko do svého pasu, do kterého si děti můžou zaznamenat zajímavé informace o jednotlivých zemích, které v průběhu našeho tábora procestujeme🌍. </p>
       <p>Po rozcvičce jsme šli na výbornou snídani a po škrábání brambor na oběd jsme se vydali do lesa hledat další zájemce o cestu kolem světa🗺️. Po obědě naopak děti chystali francouzskou hostinu pro naše hosty z celého světa🗽🥢. Nabídka byla velmi pestrá, například šneci, crème brûlée a kvalitní červené víno🥖. </p>
       <p>Před nástupem jsme si stihli zasadit i naše ředkvičky, tak doufáme, že vyrostou🌱!!! Po nástupu nás večer čekalo rande v romantické Francii, kde jsme chodili po památkách a každý hledal svoji drahou polovičku🥰🌆. </p>
