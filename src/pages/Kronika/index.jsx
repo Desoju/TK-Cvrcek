@@ -27,7 +27,7 @@ export const Kronika = () => {
       <p>Před nástupem jsme si stihli zasadit i naše ředkvičky, tak doufáme, že vyrostou🌱!!! Po nástupu nás večer čekalo rande v romantické Francii, kde jsme chodili po památkách a každý hledal svoji drahou polovičku🥰🌆. </p>
       <p>Závěrem dne bylo čtení z knížky Cesta kolem světa za 80 dní📖.</p>
     <h2>DEN 3.</h2>
-      <p>Včerejší den se nesl zvuky dud, barvami kiltů a přízvuku angličtiny. Ano, je to Skotsko! 🍀🍀 </p>
+      <p>Dnešní den se nesl zvuky dud, barvami kiltů a přízvuku angličtiny. Ano, je to Skotsko! 🍀🍀 </p>
       <p>Po pasové kontrole jsme podstoupili krátké rozcvičce a snídali buchty a kakao či čajík. Dopoledne jsme si zahráli královský golf🏌️⛳️ 😁, kde jsme otestovali nejen zdatost odpalu, ale i zdatnost výroby golfových holí. Odpolende nás čekala osvěžující cesta na koupaliště 🧊🏝️💦🏊‍♀️a následně skotská taneční soutěž🕺🕺🕺(můžete se těšit na video záznam😄). K večeři jsme měli výborné párky v rohlíku. Vyhlásili jsme soutěž o nejhezčí fotku s párkem a odborná porota určila jako vítězky Peťu s Emčou, čímž jim gratulujeme!🌭 </p>
       <p>Včerejší nabatikovaná trička už nám dnes pěkně uschla a tak je můžeme mít na večerním nástupu!🧡❤️💚💜 Všechny týmy mají názvy podle toho, jakým dopravním prostředkem cestují kolem světa. </p>
       <p>Tým Traktor (červená)🚜- Týna, Adam, Pepča, Kája, Lucka P., Martin K. </p>
