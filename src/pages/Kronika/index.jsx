@@ -44,6 +44,14 @@ export const Kronika = () => {
       <p>Skupince středních se při putování po USA podařilo navštívit úžasných 16 států. Po  cestě zažívali plno různých dobrodružství a nečekaných zvratů. Skupinka také vyzkoušela spoustu nových sportů jako je například lidský diskgolf.🥏 Dobrou putovací náladu nezkazil ani déšť, náhlý odchod od oběda ani náročnější terén.🌧️Všechny děti byli z putování nadšené a získali plno nových zážitků.😁 </p>
       <p>Skupina nejstarších se hned ráno chopila mapy a vášnivě naplánovali celou trasu. 👣 Vyrazili směrem na Štěchov po červené turistické značce a dále též navštívili Lysice, Drnovice, Kunice, Bedřichov a Kozárov. Po cestě napodobili spoustu různých sportů, byl mezi nimi například parkour či horolezectví. 🧗 </p>
       <p>Po vydatném výletu jsme se všichni nadšeně vrátili do tábořiště kde na nás čekal skvěle chutnající buřtgulášek.😋 Po večerním nástupu, až se setmělo, jsme si ještě zahráli oblíbenou hru “boj o tábořiště” se zákeřnými indiány. Den v USA jsme si všichni náležitě užili a už se těšíme na zítřejší dobrodružství!😆</p>
+    <h2>DEN 5.</h2>
+      <p>Buenos dias amigos! 5. den našeho tábora jsme necestovali daleko. Přesunuli jsme se na jih přes hranice USA a ocitli jsme se v Mexiku!🌵 </p>
+      <p>Ráno po pasové kontrole nás čekala rozcvička- kohoutí zápasy🐓. Poté jsme započali sanitární dopoledne. Omyli jsme si naše zmožená těla v teplé vodě a udělali si pořádek ve stanu. 🛀🧼 </p>
+      <p>Jelikož jsme v Mexiku, výroba tradičních piňat nesměla chybět. Spousta barev a kreativních nápadů tedy doprovázela celé dopoledne. </p>
+      <p>Po obědě a poledním klidu následovaly mexické minihry. Vyzkoušeli jsme si aktivity od lovu ryb🎣, jezení chilli 🌶️až po plácání vyrobených piňat. Odpoledne jsme zakončili plněním táborových důkazů-důkazy jsou důležitá tábornická aktivita, při které se děti učí základním tábornickým dovednostem tj. zapalování ohně🔥, balení batohu🎒, znalost rostlinek🌱, zdravověda🩹, morseova abeceda 📝atd. </p>
+      <p>Na večerním nástupu jsme si řekli denní rozkaz na zítra, rozdali ztráty a nálezy za drobné spravedlivé potrestání a předali leteckou poštu. 📨 (naši vedoucí Matěj s Filipem na fotce vypadají, že se o dopis poprali, ale nebojte, oba jsou v pořádku a dopis taky😉) </p>
+      <p>Na večeři jsme si upekli špekáčky nad ohněm a s plnými žaludky odešli spinkat. </p>
+      <p>Dobrou noc.🥱😴</p>
     </div>
   );
 };
