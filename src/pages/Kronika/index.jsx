@@ -52,6 +52,14 @@ export const Kronika = () => {
       <p>Na večerním nástupu jsme si řekli denní rozkaz na zítra, rozdali ztráty a nálezy za drobné spravedlivé potrestání a předali leteckou poštu. 📨 (naši vedoucí Matěj s Filipem na fotce vypadají, že se o dopis poprali, ale nebojte, oba jsou v pořádku a dopis taky😉) </p>
       <p>Na večeři jsme si upekli špekáčky nad ohněm a s plnými žaludky odešli spinkat. </p>
       <p>Dobrou noc.🥱😴</p>
+    <h2>DEN 6.</h2>
+      <p>Zdravíme z prosluněného Konga! 🥁 U pasové kontroly nás přivítali místní domorodci s jejich exotickými tanci. Následovala vynikající snídaně v podobě rohlíků s marmeládou. </p>
+      <p>Poté jsme se odebrali do lesa, kde jsme se snažili postavit co nejlepší vesnici pro domorodé obyvatelstvo 👺, a zároveň jsme potřebovali nalovit co nejvíce zvěře na oběd. 🦒🦓🐘 Po obědě a poledním klidu, jsme započali cestu konžskou džunglí (orientační běh). Děti se rozdělily do dvojčlenných týmů, a po cestě se snažili co nejlépe splnit úkoly, které měly překonat. Všichni trasu úspěšně doběhli. Po svačině si děti splnili nějaké důkazy a k večeru už jsme jen povečeřeli skvostný těstovinový salát a po večerním nástupu si poslechli další úryvek z knížky od Jindry. </p>
+      <p>Přejeme dobrou noc!📖</p>
+    <h2>DEN 7.</h2>
+      <p>Dnešní ráno se cestovatelé objevili ve slunné Itálii. 🍕🍝 </p>
+      <p>Dopoledne probíhaly napínavé závody formulí, u kterých byl potřeba i celý tým mechaniků. Následně od závodních aut děti zamířily k závodním motorkám a mohly si vyzkoušet, jaké je to být jezdcem.🏍️ Ze závodní dráhy se cestovatelé přesunuli k nádherným památkám Itálie a jako oddechovou aktivitu sami stavěly mosty 🌉a další zajímavé výrobky. Jako stavební materiál byly použity špagety.🍝 Po výborném obědě si děti sehnaly suroviny a šly si samy na oheň připravit večeři a to kotlíkový guláš. Večeře se všem moc povedla 🍕🍝a každý tým byl spokojen. 😋 </p>
+      <p>Následovalo letní večerní kino a pohled na hvězdy.⭐️</p>
     </div>
   );
 };
