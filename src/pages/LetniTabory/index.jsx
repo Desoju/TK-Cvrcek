@@ -11,12 +11,12 @@ export const LetniTabory = () => {
   return (
     <div className="letni_tabory">
       <h1>Letní tábory</h1>
-      <p>Termín: 14.-27. 7. 2024</p>
+      <p>Termín: </p>
       <p>ADRESA NA TÁBORY:</p>
       <p>Jméno dítěte</p>
       <p>LT TK Cvrček</p>
       <p>Kunčina Ves 6, 679 71 pošta Lysice</p>
-      <a href={predodjezdem}>INFORMACE PŘED ODJEZDEM!</a>
+      {/*<a href={predodjezdem}>INFORMACE PŘED ODJEZDEM!</a>
       <a href={letaktabor}>INFORMACE</a>
       <a href={prihlaska}>PŘIHLÁŠKA</a>
       <a href={pokyny}>PODROBNÉ POKYNY PRO PLATBU A PŘIHLÁŠENÍ</a>
@@ -29,7 +29,7 @@ export const LetniTabory = () => {
       </ul>
       <p>Odevzdat na srazu před odjezdem: </p>
       <a href={bezinfekcnost}>POTVRZENÍ O BEZINFEKČNOSTI</a>
-      <a href={zpusobilost}>POTVRZENÍ O ZDRAVOTNÍ ZPŮSOBILOSTI</a>
+      <a href={zpusobilost}>POTVRZENÍ O ZDRAVOTNÍ ZPŮSOBILOSTI</a> */}
 
       
       <h3>Program</h3>
@@ -47,12 +47,12 @@ export const LetniTabory = () => {
       </p>
       <h3>Lokalita</h3>
       <p>Tábořiště v Kunčině Vsi uprostřed lesů, nedaleko Lysic</p>
-      <h3>Základní informace</h3>
+      {/*<h3>Základní informace</h3>
       <p>
         Odjezd po poledni 14. 7. 2024 z Brna a Říčan u Brna vlastním autobusem{" "}
       </p>
       <p>Příjezd odpoledne 27. 7. 2024 do Brna a Říčan vlastním autobusem</p>
-      <p>Cena tábora 6290 Kč</p>
+      <p>Cena tábora 6290 Kč</p> */}
       <h3>Vedoucí</h3>
       <p>
         Naši vedoucí a instruktoři, kteří se budou o děti starat jezdí na tábory
