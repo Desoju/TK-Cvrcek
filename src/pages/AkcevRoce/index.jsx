@@ -16,7 +16,7 @@ export const AkcevRoce = () => {
       <div className="akce-v-roce__momentalini_akce">
         <div className="akce-v-roce__momentalini_akce__akce1">
           <h2>Výlet do naší historie a přírody</h2>
-          <p>14.-15. 9. 2024</p>
+          <p>!!22. 9. 2024!! NOVÝ TERMÍN</p>
           <a href={podzim}>INFORMACE</a>
           <br></br>
           <Link to="/seznamprihlasenychAkce1" className="link">

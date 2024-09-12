@@ -1,6 +1,6 @@
 export const PrihlaseniUcastnciAkce1 = [
-  { name: "Michaela Březinová", paid: "-" },
-  { name: "Kateřina Figarová", paid: "-" },
+  { name: "", paid: "-" },
+  { name: "", paid: "-" },
   { name: "", paid: "-" },
   { name: "", paid: "-" },
   { name: "", paid: "-" },
