@@ -1,6 +1,6 @@
 import "./style.scss";
 import { Link } from "react-router-dom";
-import podzim from "./../../documents/Podzimní_akce_2024.pdf"
+import podzim from "./../../documents/podzim-sifryy.pdf"
 
 export const AkcevRoce = () => {
   return (
@@ -15,8 +15,8 @@ export const AkcevRoce = () => {
       <p>Momentálně naplánované akce:</p>
       <div className="akce-v-roce__momentalini_akce">
         <div className="akce-v-roce__momentalini_akce__akce1">
-          <h2>Výlet do naší historie a přírody</h2>
-          <p>!!22. 9. 2024!! NOVÝ TERMÍN</p>
+          <h2>Podzimní šifrovačka</h2>
+          <p>27. 10. 2024</p>
           <a href={podzim}>INFORMACE</a>
           <br></br>
           <Link to="/seznamprihlasenychAkce1" className="link">
@@ -25,8 +25,8 @@ export const AkcevRoce = () => {
           
         </div>
         <div className="akce-v-roce__momentalini_akce__akce2">
-          <h2>Šifrovačka</h2>
-          <p>27. 10. 2024</p>
+          <h2>Drakiáda</h2>
+          <p>9.-10. 11. 2024</p>
           <p></p>
           {/* <a href="" className="prozatim">INFO (zatím není)</a> */}
           {/*<p>Přihlášení účastníci</p>*/}
@@ -38,8 +38,8 @@ export const AkcevRoce = () => {
           <p>Přihlášení účastníci</p>
         </div> */}
         <div className="akce-v-roce__momentalini_akce__akce3">
-          <h2>Drakiáda</h2>
-          <p>9.-10. 11. 2024</p>
+          <h2></h2>
+          <p></p>
           <p></p>
           {/* <a href="" className="prozatim">INFO (zatím není)</a> */}
           {/*<p>Přihlášení účastníci</p>*/}
