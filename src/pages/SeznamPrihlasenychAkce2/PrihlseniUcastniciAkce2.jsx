@@ -1,5 +1,7 @@
 /* TÁBOR 2024 */
 export const PrihlaseniUcastnciAkce2 = [
+  { name: "Šufeislová Emma", paid: "350" },
+  { name: "Šufeislová Isabella", paid: "350" },
   { name: "", paid: "" },
   { name: "", paid: "" },
   { name: "", paid: "" },
@@ -22,12 +24,10 @@ export const PrihlaseniUcastnciAkce2 = [
   { name: "", paid: "" },
   { name: "", paid: "" },
   { name: "", paid: "" },
-  { name: "", paid: "" },
-  { name: "", paid: "" },
-  { name: "", paid: "" },
-  { name: "", paid: "" },
-  { name: "", paid: "" },
-  { name: "", paid: "" },
-  { name: "", paid: "" },
-  { name: "", paid: "" },
+  { name: "Vojta Zahradník", paid: "" },
+  { name: "Ondra Zahradník", paid: "" },
+  { name: "Václav Posádka", paid: "" },
+  { name: "Monika Koširová", paid: "" },
+  { name: "Martina Ruttkayová", paid: "" },
+  { name: "Rudolf Komanec", paid: "" },
 ];
