@@ -2,8 +2,8 @@
 export const PrihlaseniUcastnciAkce2 = [
   { name: "Šufeislová Emma", paid: "350" },
   { name: "Šufeislová Isabella", paid: "350" },
-  { name: "", paid: "" },
-  { name: "", paid: "" },
+  { name: "Fialová Klaudie", paid: "350" },
+  { name: "Strašáková Karolína", paid: "350" },
   { name: "", paid: "" },
   { name: "", paid: "" },
   { name: "", paid: "" },
