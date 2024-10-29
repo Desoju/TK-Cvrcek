@@ -15,18 +15,16 @@ export const AkcevRoce = () => {
       </p>
       <p>Momentálně naplánované akce:</p>
       <div className="akce-v-roce__momentalini_akce">
-        <div className="akce-v-roce__momentalini_akce__akce1">
+        {/*<div className="akce-v-roce__momentalini_akce__akce1">
           <h2>Podzimní šifrovačka</h2>
           <p>27. 10. 2024</p>
           <a href={podzim}>INFORMACE</a>
           <br></br>
-          <a href={"https://docs.google.com/spreadsheets/d/1-Z_ZxacciCQ2-M4izrraOPYBLY6zublwkhwF3buQHbk/edit?fbclid=IwZXh0bgNhZW0CMTEAAR1H5-eWpdy72G5KGEQdtKXm3dUuVtF9u7gV5j_TrLJLtkqT-k1yqH_x7VA_aem_taerbto3iNLO-oKg9Z9Iyw&gid=0#gid=0"}>TABULKA NA TÝMY </a>
-          {/*<br></br>
           <Link to="/seznamprihlasenychAkce1" className="link">
             SEZNAM PŘIHLÁŠENÝCH
-          </Link> */}
+          </Link> 
           
-        </div>
+        </div> */}
         <div className="akce-v-roce__momentalini_akce__akce2">
           <h2>Drakiáda Lukovany</h2>
           <p>9.-10. 11. 2024</p>
