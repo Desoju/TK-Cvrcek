@@ -1,7 +1,6 @@
 import "./style.scss";
 import { Link } from "react-router-dom";
-import podzim from "./../../documents/podzim-sifryy.pdf"
-import drak from "./../../documents/Drakiáda-info.pdf"
+import koupani  from "./../../documents/Prosinec_pokyny-final.pdf"
 
 export const AkcevRoce = () => {
   return (
@@ -15,34 +14,40 @@ export const AkcevRoce = () => {
       </p>
       <p>Momentálně naplánované akce:</p>
       <div className="akce-v-roce__momentalini_akce">
-        {/*<div className="akce-v-roce__momentalini_akce__akce1">
-          <h2>Podzimní šifrovačka</h2>
-          <p>27. 10. 2024</p>
-          <a href={podzim}>INFORMACE</a>
+        <div className="akce-v-roce__momentalini_akce__akce1">
+          <h2>Koupání s Cvrčky</h2>
+          <p>7. 12. 2024</p>
+          <a href={koupani}>INFORMACE</a>
           <br></br>
           <Link to="/seznamprihlasenychAkce1" className="link">
             SEZNAM PŘIHLÁŠENÝCH
-          </Link> 
-          
-        </div> */}
-        <div className="akce-v-roce__momentalini_akce__akce2">
-          <h2>Drakiáda Lukovany</h2>
-          <p>9.-10. 11. 2024</p>
-          <a href={drak}>INFORMACE</a>
+          </Link>  
+        </div> 
+
+        {/* 
+          <div className="akce-v-roce__momentalini_akce__akce2">
+            <h2>Drakiáda Lukovany</h2>
+            <p>9.-10. 11. 2024</p>
+            <a href={drak}>INFORMACE</a>
           <br></br>
-          <Link to="/seznamprihlasenychAkce2" className="link">
-            SEZNAM PŘIHLÁŠENÝCH
-          </Link>
-        </div>
-        {/*<div className="akce-v-roce__momentalini_akce__akce3">
-          <p>Drakiáda</p>
-          <p>datum</p>
-          <p>Info</p>
           <Link to="/seznamprihlasenychAkce2" className="link">
             SEZNAM PŘIHLÁŠENÝCH
           </Link>
         </div> 
         */}
+
+        {/* 
+          <div className="akce-v-roce__momentalini_akce__akce3">
+            <h2>Drakiáda Lukovany</h2>
+            <p>9.-10. 11. 2024</p>
+            <a href={drak}>INFORMACE</a>
+          <br></br>
+          <Link to="/seznamprihlasenychAkce3" className="link">
+            SEZNAM PŘIHLÁŠENÝCH
+          </Link>
+        </div> 
+        */}
+      
       </div>
     </div>
   );

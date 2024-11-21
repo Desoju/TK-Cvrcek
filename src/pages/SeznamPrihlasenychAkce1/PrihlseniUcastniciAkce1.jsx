@@ -15,8 +15,8 @@ export const PrihlaseniUcastnciAkce1 = [
   { name: "", paid: "-" },
   { name: "", paid: "-" },
   { name: "", paid: "-" },
-  { name: "", paid: "-" },
-  { name: "", paid: "-" },
-  { name: "", paid: "-" },
-  { name: "", paid: "-" }
+  { name: "Ondřej Zahradník", paid: "-" },
+  { name: "Martin Buchníček", paid: "-" },
+  { name: "Matěj Vojtěchovský", paid: "-" },
+  { name: "Jirka Petrásek", paid: "-" }
 ];
