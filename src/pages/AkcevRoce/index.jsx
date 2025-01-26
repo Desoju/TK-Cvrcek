@@ -1,6 +1,6 @@
 import "./style.scss";
 import { Link } from "react-router-dom";
-import koupani  from "./../../documents/Prosinec_pokyny-final.pdf"
+//import koupani  from "./../../documents/Prosinec_pokyny-final.pdf"
 
 export const AkcevRoce = () => {
   return (
@@ -15,26 +15,26 @@ export const AkcevRoce = () => {
       <p>Momentálně naplánované akce:</p>
       <div className="akce-v-roce__momentalini_akce">
         <div className="akce-v-roce__momentalini_akce__akce1">
-          <h2>Koupání s Cvrčky</h2>
-          <p>7. 12. 2024</p>
-          <a href={koupani}>INFORMACE</a>
+          <h2>Víkend na Obůrce</h2>
+          <p>25.-27. 4. 2025</p>
+          {/*  <a href={koupani}>INFORMACE</a>
           <br></br>
           <Link to="/seznamprihlasenychAkce1" className="link">
             SEZNAM PŘIHLÁŠENÝCH
-          </Link>  
+          </Link>  */}
         </div> 
 
-        {/* 
+         
           <div className="akce-v-roce__momentalini_akce__akce2">
-            <h2>Drakiáda Lukovany</h2>
-            <p>9.-10. 11. 2024</p>
-            <a href={drak}>INFORMACE</a>
+            <h2>Pálení čarodějnic Říčany</h2>
+            <p>30. 4. 2024</p>
+          {/*  <a href={drak}>INFORMACE</a>
           <br></br>
           <Link to="/seznamprihlasenychAkce2" className="link">
             SEZNAM PŘIHLÁŠENÝCH
-          </Link>
+          </Link> */}
         </div> 
-        */}
+        
 
         {/* 
           <div className="akce-v-roce__momentalini_akce__akce3">

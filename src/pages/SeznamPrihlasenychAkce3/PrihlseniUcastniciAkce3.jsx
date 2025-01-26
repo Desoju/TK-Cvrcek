@@ -1,14 +1,6 @@
 export const PrihlaseniUcastnciAkce3 = [
-  { name: "", paid: "" },
-  { name: "", paid: "" },
-  { name: "", paid: "" },
-  { name: "", paid: "" },
-  { name: "", paid: "" },
-  { name: "", paid: "" },
-  { name: "", paid: "" },
-  { name: "", paid: "" },
-  { name: "", paid: "" },
-  { name: "", paid: "" },
+
+  // 2. TURNUS
   { name: "", paid: "" },
   { name: "", paid: "" },
   { name: "", paid: "" },
