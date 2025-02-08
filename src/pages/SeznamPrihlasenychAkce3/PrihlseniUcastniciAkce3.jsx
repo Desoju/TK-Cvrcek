@@ -1,8 +1,8 @@
 export const PrihlaseniUcastnciAkce3 = [
 
   // 2. TURNUS
-  { name: "", paid: "" },
-  { name: "", paid: "" },
+  { name: "Šufeislová Isabella", paid: "" },
+  { name: "Šufeislová Emma", paid: "" },
   { name: "", paid: "" },
   { name: "", paid: "" },
   { name: "", paid: "" },
