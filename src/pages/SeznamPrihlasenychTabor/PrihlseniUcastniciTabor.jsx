@@ -1,8 +1,8 @@
 export const PrihlaseniUcastnciTabor = [
   { name: "Goldová Karolína", paid: "1000 Kč" },
-  { name: "Hendy Andrew", paid: "1000 Kč - chybí přihláška" },
-  { name: "Přibylová Jasmína", paid: "2000 Kč - chybí přihláška" },
-  { name: "Přibylová Dominika", paid: "2000 Kč - chybí přihláška" },
+  { name: "Hendy Andrew", paid: "1000 Kč" },
+  { name: "Přibylová Jasmína", paid: "2000 Kč" },
+  { name: "Přibylová Dominika", paid: "2000 Kč" },
   { name: "", paid: "" },
   { name: "", paid: "" },
   { name: "", paid: "" },
