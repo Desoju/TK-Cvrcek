@@ -1,12 +1,14 @@
 import "./style.scss";
 import { PrihlaseniUcastnciAkce1 } from "./PrihlseniUcastniciAkce1";
 
+//JARNÍ OBŮRKA
+
 export const SeznamPrihlasenychAkce1 = () => {
   return (
     <div className="seznam_prihlasenych">
       <h1>Seznam přihlášených</h1>
-      <p>Koupání s Cvrčky 7. 12. 2024</p>
-      <p></p>
+      <p>Jarní Obůrka 25. - 27. 4. 2025</p>
+      <p>Aktualizováno ke dni 16. 2. 2025</p>
       <table>
         <thead>
           <tr>
