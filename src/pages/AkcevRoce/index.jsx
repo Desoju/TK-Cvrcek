@@ -2,6 +2,7 @@ import "./style.scss";
 import { Link } from "react-router-dom";
 //import koupani  from "./../../documents/Prosinec_pokyny-final.pdf"
 import jaro from "./../../documents/NEW/Jarni_Obůrka_2025.pdf"
+import vylet from "./../../documents/NEW/brezen-vylet.pdf"
 
 export const AkcevRoce = () => {
   return (
@@ -17,11 +18,11 @@ export const AkcevRoce = () => {
       <div className="akce-v-roce__momentalini_akce__akce3">
             <h2>Výlet do naší historie a přírody</h2>
             <p>22. 3. 2025</p>
-          {/*  <a href={drak}>INFORMACE</a>
+            <a href={vylet}>INFORMACE</a>
           <br></br>
           <Link to="/seznamprihlasenychAkce3" className="link">
             SEZNAM PŘIHLÁŠENÝCH
-          </Link> */}
+          </Link> 
         </div> 
         
       

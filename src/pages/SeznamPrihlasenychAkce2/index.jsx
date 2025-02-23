@@ -4,8 +4,8 @@ export const SeznamPrihlasenychAkce2 = () => {
   return (
     <div className="seznam_prihlasenych">
       <h1>Seznam přihlášených</h1>
-      <p>Drakiáda Lukovany 9.-10. 11. 2024</p>
-      <p>Aktualizováno ke dni 4. 11. 2024</p>
+      <p>Výlet do naší historie a přírody</p>
+      <p>Aktualizováno ke dni 23. 2. 2025</p>
       <table>
         <thead>
           <tr>
@@ -20,7 +20,7 @@ export const SeznamPrihlasenychAkce2 = () => {
               <tr key={index}>
                 <td>{index + 1}</td>
                 <td>{val.name}</td>
-                <td>{val.paid} Kč</td>
+                <td>{val.paid}</td>
               </tr>
             );
           })}

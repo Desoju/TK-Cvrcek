@@ -1,5 +1,6 @@
+// Obůrka
 export const PrihlaseniUcastnciAkce1 = [
-  { name: "", paid: "-" },
+  { name: "Březinová Míša", paid: "680 Kč" },
   { name: "", paid: "-" },
   { name: "", paid: "-" },
   { name: "", paid: "-" },
