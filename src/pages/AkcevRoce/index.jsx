@@ -20,7 +20,7 @@ export const AkcevRoce = () => {
             <p>22. 3. 2025</p>
             <a href={vylet}>INFORMACE</a>
           <br></br>
-          <Link to="/seznamprihlasenychAkce3" className="link">
+          <Link to="/seznamprihlasenychAkce2" className="link">
             SEZNAM PŘIHLÁŠENÝCH
           </Link> 
         </div> 
