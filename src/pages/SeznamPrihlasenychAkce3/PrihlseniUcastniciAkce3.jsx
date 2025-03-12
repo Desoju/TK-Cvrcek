@@ -11,7 +11,7 @@ export const PrihlaseniUcastnciAkce3 = [
   { name: "Wulfken Emma", paid: "" },
   { name: "Wulfken Anna", paid: "" },
   { name: "Wulfken Luisa", paid: "" },
-  { name: "", paid: "" },
+  { name: "Rousek Jan", paid: "1000 Kč" },
   { name: "", paid: "" },
   { name: "", paid: "" },
   { name: "", paid: "" },
