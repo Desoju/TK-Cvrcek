@@ -15,7 +15,7 @@ export const AkcevRoce = () => {
         vedoucích.
       </p>
       <p>Momentálně naplánované akce:</p>
-      <div className="akce-v-roce__momentalini_akce__akce3">
+      {/*<div className="akce-v-roce__momentalini_akce__akce3">
             <h2>Výlet do naší historie a přírody</h2>
             <p>22. 3. 2025</p>
             <a href={vylet}>INFORMACE</a>
@@ -23,7 +23,7 @@ export const AkcevRoce = () => {
           <Link to="/seznamprihlasenychAkce2" className="link">
             SEZNAM PŘIHLÁŠENÝCH
           </Link> 
-        </div> 
+        </div> */}
         
       
       <div className="akce-v-roce__momentalini_akce">
