@@ -8,7 +8,7 @@ export const PrihlaseniUcastnciTabor = [
   { name: "Revai Miroslav", paid: "" },
   { name: "Revai Valentina", paid: "" },
   { name: "Revai Karolína", paid: "" },
-  { name: "Popovych Veronika", paid: "" },
+  { name: "Popovych Veronika", paid: "2000 Kč" },
   { name: "", paid: "" },
   { name: "", paid: "" },
   { name: "", paid: "" },
