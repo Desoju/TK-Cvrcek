@@ -1,8 +1,8 @@
 import "./style.scss";
 import { Link } from "react-router-dom";
-//import koupani  from "./../../documents/Prosinec_pokyny-final.pdf"
 import jaro from "./../../documents/NEW/Jarni_Obůrka_2025.pdf"
-import vylet from "./../../documents/NEW/brezen-vylet.pdf"
+import jaro_odjezd from "./../../documents/NEW/Jarni_Obůrka_2025_pokyny.pdf"
+import vagon from "./../../documents/NEW/Vagon_2025.pdf"
 
 export const AkcevRoce = () => {
   return (
@@ -34,7 +34,9 @@ export const AkcevRoce = () => {
           <br></br>
           <Link to="/seznamprihlasenychAkce1" className="link">
             SEZNAM PŘIHLÁŠENÝCH
-          </Link>  
+          </Link> 
+          <a href={jaro_odjezd}>INFORMACE PŘED ODJEZDEM</a>
+           
         </div> 
 
          
@@ -49,17 +51,17 @@ export const AkcevRoce = () => {
         </div> 
         
 
-        {/* 
+         
           <div className="akce-v-roce__momentalini_akce__akce3">
-            <h2>NÁZEV</h2>
-            <p>DATUM</p>
-            <a href={drak}>INFORMACE</a>
+            <h2>Vlaková loupež Meziboří</h2>
+            <p>23.-25. 5. 2025</p>
+            <a href={vagon}>INFORMACE</a>
           <br></br>
-          <Link to="/seznamprihlasenychAkce3" className="link">
+          <Link to="/seznamprihlasenychAkce2" className="link">
             SEZNAM PŘIHLÁŠENÝCH
           </Link>
         </div> 
-        */}
+        
       
       </div>
     </div>
