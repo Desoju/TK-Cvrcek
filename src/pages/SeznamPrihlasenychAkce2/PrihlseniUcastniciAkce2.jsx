@@ -1,4 +1,4 @@
-/* Výlet */
+/* Vagon */
 export const PrihlaseniUcastnciAkce2 = [
   { name: "", paid: "-" },
   { name: "", paid: "-" },
@@ -19,8 +19,8 @@ export const PrihlaseniUcastnciAkce2 = [
   { name: "", paid: "-" },
   { name: "", paid: "-" },
   { name: "", paid: "-" },
+  { name: "", paid: "-" }, {/*
   { name: "", paid: "-" },
-  {/*{ name: "", paid: "-" },
   { name: "", paid: "-" },
   { name: "", paid: "-" },
   { name: "", paid: "-" },

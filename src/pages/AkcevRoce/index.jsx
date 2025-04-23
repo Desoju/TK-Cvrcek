@@ -35,6 +35,7 @@ export const AkcevRoce = () => {
           <Link to="/seznamprihlasenychAkce1" className="link">
             SEZNAM PŘIHLÁŠENÝCH
           </Link> 
+          <br></br>
           <a href={jaro_odjezd}>INFORMACE PŘED ODJEZDEM</a>
            
         </div> 
