@@ -1,7 +1,7 @@
 /* Vagon */
 export const PrihlaseniUcastnciAkce2 = [
-  { name: "", paid: "-" },
-  { name: "", paid: "-" },
+  { name: "Šufeislová Emma", paid: "-" },
+  { name: "Šufeislová Isabella", paid: "-" },
   { name: "", paid: "-" },
   { name: "", paid: "-" },
   { name: "", paid: "-" },
