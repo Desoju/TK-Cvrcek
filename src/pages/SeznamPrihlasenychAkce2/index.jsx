@@ -5,7 +5,7 @@ export const SeznamPrihlasenychAkce2 = () => {
     <div className="seznam_prihlasenych">
       <h1>Seznam přihlášených</h1>
       <p>Vlaková loupež Meziboří</p>
-      <p>Aktualizováno ke dni 12. 5. 2025</p>
+      <p>Aktualizováno ke dni 16. 5. 2025</p>
       <table>
         <thead>
           <tr>
