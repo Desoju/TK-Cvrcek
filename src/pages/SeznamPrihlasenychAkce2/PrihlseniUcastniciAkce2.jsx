@@ -8,7 +8,7 @@ export const PrihlaseniUcastnciAkce2 = [
   { name: "Kafka Matyáš", paid: "600 Kč" },
   { name: "Kafka Robin", paid: "600 Kč" },
   { name: "Kafková Eliška", paid: "600 Kč" },
-  { name: "", paid: "-" },
+  { name: "Pelc Vít", paid: "600 Kč" },
   { name: "", paid: "-" },
   { name: "", paid: "-" },
   { name: "", paid: "-" },
