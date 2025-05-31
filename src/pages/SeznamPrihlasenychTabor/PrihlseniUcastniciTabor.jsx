@@ -24,7 +24,7 @@ export const PrihlaseniUcastnciTabor = [
   { name: "Kafka Matyáš", paid: "2000 Kč" },
   { name: "Kafka Robin", paid: "2000 Kč" },
   { name: "Kafková Eliška", paid: "2000 Kč" },
-  { name: "", paid: "" },
+  { name: "Pelc Vít", paid: "2000 Kč" },
   { name: "", paid: "" },
   { name: "", paid: "" },
   { name: "", paid: "" },
