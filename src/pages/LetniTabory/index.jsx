@@ -2,6 +2,9 @@ import "./style.scss";
 import { Link } from "react-router-dom";
 import letaktabor from "./../../documents/NEW/Letak_tabor_2025.pdf";
 import prihlaska from "./../../documents/NEW/Prihlaska_tabor_2025.pdf";
+import predodjezdem from "./../../documents/NEW/Tábor-pokyny-před-odjezdem-2025.pdf"
+import bezinfekcnost from "./../../documents/NEW/Bezinfekčnost-formulář-2025.pdf"
+import zpusobilost from "./../../documents/NEW/Zdravotni_zpusobilost_LT2025.pdf"
 
 export const LetniTabory = () => {
   return (
@@ -24,19 +27,19 @@ export const LetniTabory = () => {
           </Link>
         </li>
       </ul>
-      {/*<p>ADRESA NA TÁBOR:</p>
+      <p>ADRESA NA TÁBOR:</p>
       <p>Jméno dítěte</p>
       <p>LT TK Cvrček</p>
-      <p>Kunčina Ves 6, 679 71 pošta Lysice</p>  */}
-      {/*<a href={predodjezdem}>INFORMACE PŘED ODJEZDEM!</a> */}
+      <p>Kunčina Ves 6, 679 71 pošta Lysice</p> 
+      <a href={predodjezdem}>INFORMACE PŘED ODJEZDEM!</a>
       <h3>Důležité dokumenty: </h3>
       <a href={letaktabor}>INFORMACE</a>
       <a href={prihlaska}>PŘIHLÁŠKA</a>
       
-      {/*<p>Odevzdat na srazu před odjezdem: </p>
+      <p>Odevzdat na srazu před odjezdem: </p>
       <a href={bezinfekcnost}>POTVRZENÍ O BEZINFEKČNOSTI</a>
       <a href={zpusobilost}>POTVRZENÍ O ZDRAVOTNÍ ZPŮSOBILOSTI</a> 
-      */}
+      
       
       <h3>Program</h3>
       <p>
@@ -53,12 +56,15 @@ export const LetniTabory = () => {
       </p>
       <h3>Lokalita</h3>
       <p>Tábořiště v Kunčině Vsi uprostřed lesů, nedaleko Lysic</p>
-      {/*<h3>Základní informace</h3>
-      <p>
-        Odjezd po poledni 14. 7. 2024 z Brna a Říčan u Brna vlastním autobusem{" "}
-      </p>
-      <p>Příjezd odpoledne 27. 7. 2024 do Brna a Říčan vlastním autobusem</p>
-      <p>Cena tábora 6290 Kč</p> */}
+      <h3>Základní informace</h3>
+      <h4>1. Turnus</h4>
+      <p>Odjezd 14:30 20. 7. 2025 z Říčan u Brna a v 15:30 z Brna-Královo Pole</p>
+      <p>Příjezd cca 13:00 2. 8. 2025 do Brna-Královo Pole a cca 13:45 do Říčan</p>
+      <h4>2. Turnus</h4>
+      <p>Odjezd 14:30 2. 8. 2025 z Říčan u Brna a v 15:30 z Brna-Královo Pole</p>
+      <p>Příjezd cca 13:00 9. 8. 2025 do Brna-Královo Pole a cca 13:45 do Říčan</p>
+
+      
       <h3>Vedoucí</h3>
       <p>
         Naši vedoucí a instruktoři, kteří se budou o děti starat jezdí na tábory

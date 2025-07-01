@@ -1,8 +1,8 @@
 export const PrihlaseniUcastnciAkce3 = [
 
   // 2. TURNUS
-  { name: "Šufeislová Isabella", paid: "1000 Kč" },
-  { name: "Šufeislová Emma", paid: "1000 Kč" },
+  { name: "Šufeislová Isabella", paid: "3000 Kč" },
+  { name: "Šufeislová Emma", paid: "3000 Kč" },
   { name: "Březinová Michaela", paid: "3000 Kč" },
   { name: "Figarová Kateřina", paid: "3000 Kč" },
   { name: "Jurečková Zuzka", paid: "1000 Kč" },
@@ -25,10 +25,10 @@ export const PrihlaseniUcastnciAkce3 = [
   { name: "Pernikářová Nikola", paid: "3000 Kč" },
   { name: "Pernikářová Lucie", paid: "3000 Kč" },
   { name: "Pernikářová Jana", paid: "3000 Kč" },
-  { name: "Bahulová Lucie", paid: "3000 Kč" },
-  { name: "Kolář Šimon", paid: "1000 Kč" },
-  { name: "Kolář Adam", paid: "1000 Kč" },
+  { name: "Bahulová Lucie", paid: "3000 Kč - chybí přihláška" },
+  { name: "Kolář Šimon", paid: "3000 Kč" },
+  { name: "Kolář Adam", paid: "3000 Kč" },
   { name: "Lučanová Victorie", paid: "3000 Kč" },
   { name: "Lučanová Valerie", paid: "3000 Kč" },
-  { name: "", paid: "" },
+  { name: "Priadko Kira", paid: "0 Kč" },
 ];
