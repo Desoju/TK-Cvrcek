@@ -124,7 +124,7 @@ export const Kronika = () => {
       </div>*/}
     <h3>Veškeré dění na našem letním táboře můžete sledovat na našem facebooku, kde budeme s krátkým popiskem zveřejňovat i výběr fotek z daného dne</h3>
       <a href="https://www.facebook.com/profile.php?id=61555326507157">Facebook TK Cvrček</a>
-    <h1>Info k el. poště</h1>
+    <h1>Info k el. poště </h1>
       <p>Množí se nám Vaše vzkazy pro Vaše milované ratolesti pod našimi Facebookovými příspěvky. Proto jsme se rozhodli pro jednodušší komunikaci a soustředění Vašich vzkazů na jedno místo přesunout komunikaci na táborový mail tkcvrcek@gmail.com. Bude to tedy fungovat následovně: do mailového předmětu napište např. "Vzkaz pro Pepíčka Nováka", do samotného mailu pak napište vzkaz a my ho přečteme na večerním nástupu.</p>
       <p>Bohužel nejsme zatím schopni technicky zajistit, aby i děti mohly posílat elektronické vzkazy, ale na řešení pracujeme a snad se nám podaří něco vymyslet. Postaráno je tu však o ně víc než dobře! 
          Zároveň se nebojte jim posílat i klasickou poštu - pohledy či dopisy. Takový vzkaz udělá dítěti na tábor větší radost a zůstane mu jako památka.</p>
@@ -134,7 +134,7 @@ export const Kronika = () => {
       <p>Náš druhý tábor s klubem TK Cvrček právě započal! 😍</p>
       <p>Děti se na téma Harryho Pottera naladily již při vstupu do autobusu, kdy od Hagrida dostaly oficiální dopisy 
         o přijetí do školy čar a kouzel. 🪄Plné nadšení naposledy zamávaly rodičům z oken autobusu a vydaly se vstříc 
-        dvoutydennímu dobrodružství. V tábořisti na ně čekali vedoucí a krásné slunečné počasí. ☀️ </p>
+        dvoutydennímu dobrodružství. V tábořišti na ně čekali vedoucí a krásné slunečné počasí. ☀️ </p>
       <p>  Po rozdělení stanů si všichni rozebrali kufry a tašky, zabydleli se, a zatímco svačili, seznámili jsme se s chodem tábora. 
         Následovaly hry, při kterých s radostí poznali nové přátele nebo zase po roce přivítali své kamarády z předchozích akcí.</p>
       <p>Děti pak čekalo rozdělení do kolejí, které prováděl moudrý klobouk. 🎩 Dětem se také představil náš učitelský sbor!</p>
@@ -152,7 +152,7 @@ export const Kronika = () => {
       </div>
     <h2>DEN 2.</h2>
       <p>Dnešní ráno jsme započali rozcvičkou v příčné ulici, kde děti nakupovaly přísady a potřeby na hodiny magie. Následovala snídaně složená z obložených rohlíku a teplého čaje.🍵</p>
-      <p>Po lahodné snídani jsme nazuli pevné boty a nachystali se na hru. Děti se štafetově střídaly v běhu, skákání a mnoha dalších zabavných aktivitách.</p>
+      <p>Po lahodné snídani jsme nazuli pevné boty a nachystali se na hru. Děti se štafetově střídaly v běhu, skákání a mnoha dalších zábavných aktivitách.</p>
       <p>Na obědě jsme si všichni moc pochutnali. Spořádali jsme česnečku🧄 a k druhému rýži s masem🍗. Po jídle následoval polední klid, při kterém jsme měli možnost si odpočinout a načerpat nové síly na odpolední aktivity. 💪</p>
       <p>Po vydatném odpočinku jsme si šli procvičit hlavu.🤯 Děti si napsaly 10 pravdivých faktů o sobě, které jsme jim přečetli podle pořadí z dopolední hry. Poté byla náhodně vybraná fakta, u kterých musely uhodnout, zda jsou pravdivá. Hru si  náramně užili jak děti, tak vedoucí. </p>
       <p>Poslední hra dnešního dne se odehrávala v nedalekém lese.🌲Děti z lístečků rozvěšených na stromech sbíraly zašifrované části slov, ze kterých skládaly zaklínadla. Cestou zpět nám začalo pršet, v největším dešti jsme však byli již v holínkách a pláštěnkách bezpečně v táboře.🌧️</p>
