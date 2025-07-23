@@ -16,18 +16,18 @@ import be from "./../../images/tabor25/2_5.JPG";
 import bf from "./../../images/tabor25/2_6.JPG";
 import bg from "./../../images/tabor25/2_7.JPG";
 import bh from "./../../images/tabor25/2_8.JPG";
-import ca from "./../../images/tabor24/3_1.jpg";
-import cb from "./../../images/tabor24/3_2.jpg";
-import cc from "./../../images/tabor24/3_3.jpg";
-import cd from "./../../images/tabor24/3_4.jpg";
-import ce from "./../../images/tabor24/3_5.jpg";
-import cf from "./../../images/tabor24/3_6.jpg";
-import cg from "./../../images/tabor24/3_7.jpg";
-import ch from "./../../images/tabor24/3_8.jpg";
-import ci from "./../../images/tabor24/3_9.jpg";
-import cj from "./../../images/tabor24/3_10.jpg";
-import ck from "./../../images/tabor24/3_11.jpg";
-import cl from "./../../images/tabor24/3_12.jpg";
+import ca from "./../../images/tabor25/3_1.JPG";
+import cb from "./../../images/tabor25/3_2.JPG";
+import cc from "./../../images/tabor25/3_3.JPG";
+import cd from "./../../images/tabor25/3_4.JPG";
+import ce from "./../../images/tabor25/3_5.JPG";
+import cf from "./../../images/tabor25/3_6.JPG";
+import cg from "./../../images/tabor25/3_7.JPG";
+import ch from "./../../images/tabor25/3_8.JPG";
+import ci from "./../../images/tabor25/3_9.JPG";
+import cj from "./../../images/tabor25/3_10.JPG";
+import ck from "./../../images/tabor25/3_11.JPG";
+import cl from "./../../images/tabor25/3_12.JPG";
 import da from "./../../images/tabor24/4_1.jpg";
 import db from "./../../images/tabor24/4_2.jpg";
 import dc from "./../../images/tabor24/4_3.jpg";
@@ -169,7 +169,28 @@ export const Kronika = () => {
         <img src={bh} className="zaznam-kroniky__fotky__fotka"/>
       </div> 
     
-     {/* <div className="zaznam-kroniky__fotky">
+     <h2>DEN 3.</h2>
+     <p>Dnes byla většina dětí vzhůru již před budíčkem. Zjevně se těšily na další nabitý program, čekal je totiž famfrpál. 🤩
+       Proto jsme na rozcvičce trénovali létání na koštěti, v čemž se děti ukázaly jako profíci. Po rozcvičce jsme snědli snídani,
+       vyčistili si zuby a hurá za kamenem mudrců! 🪨</p>
+     <p>Cesta za kamenem nebyla lehká. Týmy musely projít přes tříhlavého psa Chloupka🐕, prodírat se květinou nesoucí název ďáblovo
+       osidlo🥀, chytit létající klíč🗝️ a také si zahrát kouzelnickou šachovou partii♟️. Nakonec se všichni dostali až k zrcadlu
+        z Erisedu, ve kterém našli to, co hledali.</p>
+      <p>Následoval oběd, ke kterému jsme měli výbornou polévku a kynuté knedlíky s jahodami a jahodovým přelivem.😋</p>
+      <p>Po klidném poledni nás čekal slíbený famfrpál. V této hře soupeřily vždy dvě koleje proti sobě a snažily se si navzájem dát
+         co nejvíce gólů do obručí. Při tom také sbíraly body za lístečky a chycení zlatonky. ⭐ Zbylé týmy je v tom podporovaly,
+          jak nejlépe dovedly.</p>
+      <p>Po náročném famfrpálu jsme se vrhli na něco klidnějšího.🤫 </p>
+      <p>Nyní vám představíme naše týmy na letošní celotáborovou hru:</p>
+      <p>Lunovír - žlutá: Jasmínka, Ema, Verča, Kája, Tonda, Tom a Maty </p>
+      <p>Bystrovíz - modrá: Sofča, Kája, Fany, Adam, Eliška, Šimon, Martin a Víťa </p>
+      <p>Hrdolín - zelená: Lenka, Štěpán, Tonda, Bety, Domča, Andrew, Mirek a Kira </p>
+      <p>Krvokvět - červená: Lukáš, Šimon, Robin, Peťa, Anitka, Gabča, Vája</p>
+      <p>Úkolem bylo vyrobit co nejlepší hůlku a poté ji odprezentovat. 
+        Děti využily veškerou svoji fantazii a patřičně se na výrobcích vyřádily.😁 Ještě jsme si pochutnali na parcích v rohlíku a 
+        odešli jsme k táboráku.</p>
+      <p>Táborák byl hřebem večera, hezky jsme si zazpívali a ohřáli se u ohně.🔥Po pár písničkách jsme si už jen popřáli dobrou noc. 🌙</p>
+      <div className="zaznam-kroniky__fotky">
         <img src={ca} className="zaznam-kroniky__fotky__fotka"/>
         <img src={cb} className="zaznam-kroniky__fotky__fotka"/>
         <img src={cc} className="zaznam-kroniky__fotky__fotka"/>
@@ -182,7 +203,7 @@ export const Kronika = () => {
         <img src={cj} className="zaznam-kroniky__fotky__fotka"/>
         <img src={ck} className="zaznam-kroniky__fotky__fotka"/>
         <img src={cl} className="zaznam-kroniky__fotky__fotka"/>
-      </div> */}
+      </div> 
     
     {/*  <div className="zaznam-kroniky__fotky">
         <img src={da} className="zaznam-kroniky__fotky__fotka"/>
