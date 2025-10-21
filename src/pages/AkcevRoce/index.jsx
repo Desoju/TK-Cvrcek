@@ -1,6 +1,6 @@
 import "./style.scss";
 import { Link } from "react-router-dom";
-import jaro from "./../../documents/NEW/Jarni_Obůrka_2025.pdf"
+import drak from "./../../documents/NEW/drakiada25.pdf"
 import jaro_odjezd from "./../../documents/NEW/Jarni_Obůrka_2025_pokyny.pdf"
 import vagon from "./../../documents/NEW/Vagon_2025.pdf"
 
@@ -31,9 +31,9 @@ export const AkcevRoce = () => {
         <div className="akce-v-roce__momentalini_akce__akce1">
           <h2>Drakiáda Lukovany</h2>
           <p>29.-30. 11. 2025</p>
-          <p>Více info již tento týden!</p>
-         {/* <a href={jaro}>INFORMACE</a>
-          <br></br>
+          <p>Podrobnější informace zde:</p>
+          <a href={drak}>INFORMACE</a>
+         {/* <br></br>
           <Link to="/seznamprihlasenychAkce1" className="link">
             SEZNAM PŘIHLÁŠENÝCH
           </Link>  */}
