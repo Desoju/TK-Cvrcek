@@ -29,11 +29,6 @@ export const UvodniStranka = () => {
               <img src={calendar} alt="kalendář" className="uvodni_stranka__icon" />Akce v průběhu roku
             </Link>
           </li>
-          <li>
-            <Link to="/kronika">
-              <img src={camera} alt="kronika" className="uvodni_stranka__icon" />Kronika
-            </Link>
-          </li>
         </ul>
       </div>
     </div>
