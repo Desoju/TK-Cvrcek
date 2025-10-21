@@ -31,6 +31,7 @@ export const AkcevRoce = () => {
         <div className="akce-v-roce__momentalini_akce__akce1">
           <h2>Drakiáda Lukovany</h2>
           <p>29.-30. 11. 2025</p>
+          <p>Více info již tento týden!</p>
          {/* <a href={jaro}>INFORMACE</a>
           <br></br>
           <Link to="/seznamprihlasenychAkce1" className="link">
