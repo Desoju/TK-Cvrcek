@@ -38,16 +38,16 @@ export const AkcevRoce = () => {
           </Link>  */}
         </div> 
             
-         {/*
+         
           <div className="akce-v-roce__momentalini_akce__akce2">
             <h2>NÁZEV</h2>
             <p>DATUM</p>
-            <a href={drak}>INFORMACE</a>
+          {/*  <a href={drak}>INFORMACE</a>
           <br></br>
-          <Link to="/seznamprihlasenychAkce2" className="link">
+           <Link to="/seznamprihlasenychAkce2" className="link">
             SEZNAM PŘIHLÁŠENÝCH
           </Link> */}
-        </div> 
+        </div>  
         
 
          {/*
@@ -63,7 +63,7 @@ export const AkcevRoce = () => {
         
       
       </div>
-    
+    </div>
   );
 };
 
