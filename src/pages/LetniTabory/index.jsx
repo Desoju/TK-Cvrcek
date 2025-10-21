@@ -10,7 +10,9 @@ export const LetniTabory = () => {
   return (
     <div className="letni_tabory">
       <h1>Letní tábory</h1>
-      <p>Termíny: </p>
+      <p>Letní tábory pro vás pečlivě připravujeme a včas vás o nich budeme informovat prostřednictvím mailu a zde na webovkách.</p>
+      <p>Pokud jste na nás narazili někdy během školního roku a měli byste zájem být také kontaktováni ohledně bližších informací k letním táborům, ozvěte se nám na mail tkcvrcek@gmail.com</p>
+      {/*<p>Termíny: </p>
       <p>     1. turnus:  20. 7. - 2. 8. 2025</p>
       <ul>
         <li>
@@ -40,7 +42,7 @@ export const LetniTabory = () => {
       <a href={bezinfekcnost}>POTVRZENÍ O BEZINFEKČNOSTI</a>
       <a href={zpusobilost}>POTVRZENÍ O ZDRAVOTNÍ ZPŮSOBILOSTI</a> 
       
-      
+      */}
       <h3>Program</h3>
       <p>
         Táborem bude děti provázet celotáborová hra s propracovaným programem se
@@ -56,14 +58,14 @@ export const LetniTabory = () => {
       </p>
       <h3>Lokalita</h3>
       <p>Tábořiště v Kunčině Vsi uprostřed lesů, nedaleko Lysic</p>
-      <h3>Základní informace</h3>
+      {/*<h3>Základní informace</h3>
       <h4>1. Turnus</h4>
       <p>Odjezd 14:30 20. 7. 2025 z Říčan u Brna a v 15:30 z Brna-Královo Pole</p>
       <p>Příjezd cca 13:00 2. 8. 2025 do Brna-Královo Pole a cca 13:45 do Říčan</p>
       <h4>2. Turnus</h4>
       <p>Odjezd 14:30 2. 8. 2025 z Říčan u Brna a v 15:30 z Brna-Královo Pole</p>
       <p>Příjezd cca 13:00 9. 8. 2025 do Brna-Královo Pole a cca 13:45 do Říčan</p>
-
+      */}
       
       <h3>Vedoucí</h3>
       <p>
@@ -71,6 +73,7 @@ export const LetniTabory = () => {
         už od mala. Velká část z nich si prošla zdravotnickým kurzem a mají
         zkušenosti s prací s dětmi.
       </p>
+      
     </div>
   );
 };

@@ -29,8 +29,8 @@ export const AkcevRoce = () => {
       <div className="akce-v-roce__momentalini_akce">
         
         <div className="akce-v-roce__momentalini_akce__akce1">
-          <h2>Pojeďte s námi na LETNÍ TÁBOR!</h2>
-          <p>Další víkendové akce pro vás připravujeme po letních prázdninách. Těšíme se na vás!</p>
+          <h2>Drakiáda Lukovany</h2>
+          <p>29.-30. 11. 2025</p>
          {/* <a href={jaro}>INFORMACE</a>
           <br></br>
           <Link to="/seznamprihlasenychAkce1" className="link">
@@ -40,8 +40,8 @@ export const AkcevRoce = () => {
             
          
           <div className="akce-v-roce__momentalini_akce__akce2">
-            <h2>NÁZEV</h2>
-            <p>DATUM</p>
+            <h2>Vánoční dílničky Zbraslav</h2>
+            <p>Datum upřesníme</p>
           {/*  <a href={drak}>INFORMACE</a>
           <br></br>
            <Link to="/seznamprihlasenychAkce2" className="link">
