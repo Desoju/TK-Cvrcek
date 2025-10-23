@@ -1,6 +1,6 @@
 import "./style.scss";
 import { Link } from "react-router-dom";
-import drak from "./../../documents/NEW/drakiada25.pdf"
+import drak from "./../../documents/NEW/drak25.pdf"
 import jaro_odjezd from "./../../documents/NEW/Jarni_Obůrka_2025_pokyny.pdf"
 import vagon from "./../../documents/NEW/Vagon_2025.pdf"
 
